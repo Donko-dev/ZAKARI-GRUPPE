@@ -4,7 +4,7 @@
    Stale-While-Revalidate pour un fonctionnement 100% hors-ligne.
    ========================================================================== */
 
-const VERSION_CACHE = 'zakari-gruppe-v1.0.0';
+const VERSION_CACHE = 'zakari-gruppe-v1.1.0';
 const CACHE_STATIQUE = `${VERSION_CACHE}-statique`;
 const CACHE_DYNAMIQUE = `${VERSION_CACHE}-dynamique`;
 

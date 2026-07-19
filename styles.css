@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 :root{
-  /* Couleurs */
+  /* Couleurs — Thème Sombre Premium (par défaut) */
   --noir-abysse:#0a0b0d;
   --noir-carbone:#141519;
   --noir-carbone-2:#1b1d22;
@@ -22,6 +22,7 @@
   --whatsapp:#25d366;
   --gmail-rouge:#ea4335;
   --gmail-bleu:#4285f4;
+  --ombre-carte: 0 22px 50px -18px rgba(0,0,0,.6);
 
   /* Typo */
   --f-display:'Cormorant SC', serif;
@@ -34,6 +35,28 @@
   --facette: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
   --ombre-or: 0 8px 32px -8px rgba(201,162,39,.35);
   --transition: 320ms cubic-bezier(.22,.61,.36,1);
+}
+
+/* Thème Clair — Lumineux, mêmes accents Or / Diamant */
+:root[data-theme="clair"]{
+  --noir-abysse:#f7f5f0;
+  --noir-carbone:#ffffff;
+  --noir-carbone-2:#f0eee7;
+  --ligne:#e2ddd0;
+  --diamant:#1c1b17;
+  --diamant-ombre:#5a564a;
+  --diamant-sourd:#8b8676;
+  --ombre-carte: 0 18px 40px -18px rgba(120,100,40,.28);
+}
+:root[data-theme="clair"] .trame-diamant{opacity:.04}
+:root[data-theme="clair"] .hero-lueur{opacity:.6}
+:root[data-theme="clair"] .logo-hero,
+:root[data-theme="clair"] .scroll-indic{filter:none}
+:root[data-theme="clair"] .entete{background:rgba(247,245,240,.78)}
+:root[data-theme="clair"] .btn-or{color:#1a1305}
+
+body,.entete,.carte-vehicule,.carte-service,.canal,.carte-formulaire,.modale{
+  transition:background var(--transition),color var(--transition),border-color var(--transition);
 }
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -191,7 +214,7 @@ h1,h2,h3,h4{font-family:var(--f-display);font-weight:600;letter-spacing:.01em;co
   overflow:hidden;transition:transform var(--transition),border-color var(--transition),box-shadow var(--transition);
   display:flex;flex-direction:column;
 }
-.carte-vehicule:hover{transform:translateY(-6px);border-color:var(--or);box-shadow:0 22px 50px -18px rgba(0,0,0,.6)}
+.carte-vehicule:hover{transform:translateY(-6px);border-color:var(--or);box-shadow:var(--ombre-carte)}
 .image-vehicule{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--noir-carbone-2)}
 .image-vehicule img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
 .carte-vehicule:hover .image-vehicule img{transform:scale(1.06)}
@@ -236,6 +259,9 @@ h1,h2,h3,h4{font-family:var(--f-display);font-weight:600;letter-spacing:.01em;co
 .icone-service svg{width:26px;height:26px}
 .carte-service h3{font-size:1.4rem}
 .carte-service p{font-size:.9rem;color:var(--diamant-ombre)}
+.bienfaits-service{display:flex;flex-wrap:wrap;gap:.4rem}
+.bienfaits-service span{font-size:.7rem;padding:.28em .65em;background:rgba(37,211,102,.08);border:1px solid rgba(37,211,102,.3);color:#4fd98a;border-radius:100px}
+.libelle-bloc{font-family:var(--f-data);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--diamant-sourd);margin-top:.4rem}
 .liste-materiel{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.3rem}
 .liste-materiel span{font-family:var(--f-data);font-size:.66rem;padding:.3em .6em;border:1px solid var(--ligne);color:var(--diamant-sourd)}
 .tarif-service{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:1rem;border-top:1px dashed var(--ligne)}
@@ -388,9 +414,96 @@ h1,h2,h3,h4{font-family:var(--f-display);font-weight:600;letter-spacing:.01em;co
   .burger{display:grid}
   .actions-nav .btn-fantome span{display:none}
 }
+/* Grille compacte 2 colonnes sur mobile (véhicules + services) */
+@media(max-width:760px){
+  .grille-vehicules,.grille-services{grid-template-columns:repeat(2,1fr);gap:.7rem}
+  .carte-vehicule,.carte-service{clip-path:none;border-radius:var(--rayon)}
+  .corps-carte{padding:.8rem .8rem 1rem;gap:.5rem}
+  .entete-carte h3{font-size:.98rem;line-height:1.15}
+  .entete-carte .marque{font-size:.56rem}
+  .prix-carte{font-size:.92rem}
+  .meta-carte{font-size:.6rem;gap:.5rem;padding:.4rem 0}
+  .meta-carte svg{width:11px;height:11px}
+  .pays-carte{font-size:.62rem;gap:.4rem;flex-direction:column}
+  .options-carte{gap:.25rem}
+  .tag-option{font-size:.56rem;padding:.2em .5em}
+  .pied-carte{flex-direction:column;gap:.4rem}
+  .pied-carte .btn{width:100%;padding:.6em .7em;font-size:.68rem}
+  .badge-etat,.badge-categorie{font-size:.52rem;padding:.24em .55em}
+  .carte-service{padding:1.1rem;clip-path:none;border-radius:var(--rayon)}
+  .icone-service{width:38px;height:38px}
+  .icone-service svg{width:19px;height:19px}
+  .carte-service h3{font-size:1rem}
+  .carte-service p{font-size:.74rem}
+  .liste-materiel span{font-size:.56rem}
+  .tarif-service .montant{font-size:1.05rem}
+  .bienfaits-service{font-size:.68rem !important}
+}
 @media(max-width:640px){
   .hero-stats{gap:1.6rem}
-  .grille-vehicules{grid-template-columns:1fr}
   .selecteur-domaine{gap:.4rem}
   .onglet-domaine{padding:.75em 1.1em;font-size:.78rem}
 }
+@media(max-width:400px){
+  .grille-vehicules,.grille-services{gap:.5rem}
+}
+
+/* ==================== SÉLECTEURS LANGUE / DEVISE / THÈME ==================== */
+.selecteurs-globaux{display:flex;align-items:center;gap:.4rem}
+.menu-deroulant{position:relative}
+.bouton-select-perso{
+  display:flex;align-items:center;gap:.4em;padding:.45em .7em;border:1px solid var(--ligne);
+  border-radius:100px;font-family:var(--f-ui);font-size:.78rem;color:var(--diamant-ombre);background:rgba(255,255,255,.02);
+  transition:var(--transition);
+}
+.bouton-select-perso:hover{border-color:var(--or);color:var(--diamant)}
+.bouton-select-perso .drapeau{font-size:1rem;line-height:1}
+.panneau-deroulant{
+  position:absolute;top:calc(100% + .6rem);right:0;background:var(--noir-carbone);border:1px solid var(--ligne);
+  min-width:190px;max-height:340px;overflow-y:auto;z-index:110;opacity:0;pointer-events:none;transform:translateY(-6px);
+  transition:var(--transition);box-shadow:0 20px 40px -14px rgba(0,0,0,.5);
+}
+.panneau-deroulant.ouvert{opacity:1;pointer-events:auto;transform:translateY(0)}
+.option-deroulant{
+  display:flex;align-items:center;gap:.6em;width:100%;padding:.65em .9em;font-size:.82rem;color:var(--diamant-ombre);
+  text-align:left;border-bottom:1px solid var(--ligne);
+}
+.option-deroulant:last-child{border-bottom:none}
+.option-deroulant:hover{background:rgba(201,162,39,.08);color:var(--diamant)}
+.option-deroulant.actif{color:var(--or-clair)}
+.option-deroulant .drapeau{font-size:1.05rem}
+.bouton-theme{
+  width:38px;height:38px;border-radius:50%;border:1px solid var(--ligne);display:grid;place-items:center;
+  color:var(--diamant-ombre);transition:var(--transition);
+}
+.bouton-theme:hover{border-color:var(--or);color:var(--or-clair)}
+.bouton-theme svg{width:17px;height:17px}
+.bouton-theme .icone-lune{display:none}
+:root[data-theme="clair"] .bouton-theme .icone-soleil{display:none}
+:root[data-theme="clair"] .bouton-theme .icone-lune{display:block}
+[dir="rtl"] .panneau-deroulant{right:auto;left:0}
+@media(max-width:920px){
+  .selecteurs-globaux{order:3;width:100%;justify-content:center;padding-top:1.4rem;margin-top:1.4rem;border-top:1px solid var(--ligne)}
+}
+
+/* ==================== MODALE COMMANDE GÉOGRAPHIQUE ==================== */
+.choix-pays{display:flex;flex-direction:column;gap:.9rem;margin-top:1.2rem}
+.option-pays{
+  display:flex;align-items:center;gap:1rem;padding:1.1rem 1.3rem;border:1px solid var(--ligne);
+  background:var(--noir-carbone-2);transition:var(--transition);
+}
+.option-pays:hover{border-color:var(--whatsapp);transform:translateX(4px)}
+.option-pays .drapeau{font-size:1.8rem}
+.option-pays b{display:block;font-size:.98rem}
+.option-pays span{font-family:var(--f-data);font-size:.76rem;color:var(--diamant-sourd)}
+.recap-commande{background:var(--noir-carbone-2);border:1px solid var(--ligne);padding:1rem 1.2rem;margin-bottom:.6rem;font-size:.85rem;color:var(--diamant-ombre)}
+.recap-commande b{color:var(--or-clair)}
+
+/* ==================== ADMIN — IMPORT MULTI-IMAGES ==================== */
+.zone-images-admin{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:.8rem}
+.vignette-image{position:relative;width:76px;height:76px;border:1px solid var(--ligne);overflow:hidden}
+.vignette-image img{width:100%;height:100%;object-fit:cover}
+.vignette-image button{position:absolute;top:2px;right:2px;width:18px;height:18px;background:rgba(10,11,13,.75);color:#fff;border-radius:50%;display:grid;place-items:center;font-size:.65rem}
+.ajouter-image-btn{width:76px;height:76px;border:1px dashed var(--ligne);display:grid;place-items:center;color:var(--diamant-sourd);flex-direction:column;gap:.2rem;font-size:.65rem}
+.ajouter-image-btn:hover{border-color:var(--or);color:var(--or-clair)}
+.note-champ{font-size:.7rem;color:var(--diamant-sourd);margin-top:-.6rem;margin-bottom:.8rem;display:block}

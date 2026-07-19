@@ -79,13 +79,27 @@
       <span class="texte-marque">ZAKARI GRUPPE<span>VÉHICULES · DETAILING</span></span>
     </a>
     <ul class="liens-nav" id="liensNav">
-      <li><a href="#accueil">Accueil</a></li>
-      <li><a href="#vehicules">Véhicules</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#accueil" data-i18n="nav_accueil">Accueil</a></li>
+      <li><a href="#vehicules" data-i18n="nav_vehicules">Véhicules</a></li>
+      <li><a href="#services" data-i18n="nav_services">Services</a></li>
+      <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+      <li class="selecteurs-globaux">
+        <div class="menu-deroulant" id="menuLangue">
+          <button class="bouton-select-perso" id="btnLangue" aria-haspopup="listbox"><span class="drapeau" id="drapeauActuel">🇫🇷</span><span id="codeLangueActuel">FR</span></button>
+          <div class="panneau-deroulant" id="panneauLangue" role="listbox"></div>
+        </div>
+        <div class="menu-deroulant" id="menuDevise">
+          <button class="bouton-select-perso" id="btnDevise" aria-haspopup="listbox"><span id="symboleDeviseActuelle">€</span><span id="codeDeviseActuelle">EUR</span></button>
+          <div class="panneau-deroulant" id="panneauDevise" role="listbox"></div>
+        </div>
+        <button class="bouton-theme" id="btnTheme" aria-label="Changer de thème">
+          <svg class="icone-soleil" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+          <svg class="icone-lune" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
+        </button>
+      </li>
     </ul>
     <div class="actions-nav">
-      <button class="btn btn-fantome btn-petit btn-installer" id="btnInstaller"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v13m0 0l-5-5m5 5l5-5M4 21h16"/></svg><span>Installer l'app</span></button>
+      <button class="btn btn-fantome btn-petit btn-installer" id="btnInstaller"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v13m0 0l-5-5m5 5l5-5M4 21h16"/></svg><span data-i18n="nav_installer">Installer l'app</span></button>
       <button class="burger" id="btnBurger" aria-label="Menu"><span></span></button>
     </div>
   </nav>
@@ -96,17 +110,17 @@
 <section class="hero" id="accueil">
   <div class="hero-lueur" aria-hidden="true"></div>
   <svg class="logo-hero" viewBox="0 0 200 200"><use href="#logo-aigle" class="plume"/></svg>
-  <p class="eyebrow" style="justify-content:center">Depuis le Bénin, vers l'excellence automobile</p>
-  <h1>L'exigence <em>ZAKARI</em><br>a quatre roues.</h1>
-  <p class="hero-baseline">Vente de véhicules neufs et d'occasion — poids lourds, tourisme et engins spéciaux — associée à un atelier de detailing haut de gamme qui restitue à chaque véhicule son éclat d'origine.</p>
+  <p class="eyebrow" style="justify-content:center" data-i18n="hero_eyebrow">Depuis le Bénin, vers l'excellence automobile</p>
+  <h1 data-i18n-html="hero_titre">L'exigence <em>ZAKARI</em><br>a quatre roues.</h1>
+  <p class="hero-baseline" data-i18n="hero_baseline">Vente de véhicules neufs et d'occasion — poids lourds, tourisme et engins spéciaux — associée à un atelier de detailing haut de gamme qui restitue à chaque véhicule son éclat d'origine.</p>
   <div class="hero-cta">
-    <a href="#vehicules" class="btn btn-or">Découvrir le catalogue</a>
-    <a href="#services" class="btn btn-fantome">Voir les prestations</a>
+    <a href="#vehicules" class="btn btn-or" data-i18n="hero_cta1">Découvrir le catalogue</a>
+    <a href="#services" class="btn btn-fantome" data-i18n="hero_cta2">Voir les prestations</a>
   </div>
   <div class="hero-stats">
-    <div class="stat"><b id="statVehicules">0</b><span>Véhicules référencés</span></div>
-    <div class="stat"><b>3</b><span>Continents de marques</span></div>
-    <div class="stat"><b>100%</b><span>Disponible hors-ligne</span></div>
+    <div class="stat"><b id="statVehicules">0</b><span data-i18n="hero_stat1">Véhicules référencés</span></div>
+    <div class="stat"><b>3</b><span data-i18n="hero_stat2">Continents de marques</span></div>
+    <div class="stat"><b>100%</b><span data-i18n="hero_stat3">Disponible hors-ligne</span></div>
   </div>
   <div class="scroll-indic" aria-hidden="true"></div>
 </section>
@@ -119,27 +133,27 @@
 <section class="section" id="vehicules">
   <div class="container">
     <div class="selecteur-domaine">
-      <button class="onglet-domaine actif" data-domaine="vehicules"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><use href="#ic-voiture"/></svg>Galerie Véhicules</button>
-      <button class="onglet-domaine" data-domaine="services"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><use href="#ic-spray"/></svg>Services &amp; Detailing</button>
+      <button class="onglet-domaine actif" data-domaine="vehicules"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><use href="#ic-voiture"/></svg><span data-i18n="onglet_vehicules">Galerie Véhicules</span></button>
+      <button class="onglet-domaine" data-domaine="services"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><use href="#ic-spray"/></svg><span data-i18n="onglet_services">Services &amp; Detailing</span></button>
     </div>
 
     <!-- ---- DOMAINE VÉHICULES ---- -->
     <div id="domaineVehicules">
-      <p class="eyebrow" style="justify-content:center">Domaine 1</p>
-      <h2 class="titre-section" style="text-align:center">Galerie de vente de véhicules</h2>
-      <p class="soustitre-section" style="margin:0 auto 2.4rem;text-align:center">Neufs et d'occasion — gros porteurs, poids légers et véhicules spéciaux, sélectionnés sur toute la planète automobile.</p>
+      <p class="eyebrow" style="justify-content:center" data-i18n="domaine1_eyebrow">Domaine 1</p>
+      <h2 class="titre-section" style="text-align:center" data-i18n="domaine1_titre">Galerie de vente de véhicules</h2>
+      <p class="soustitre-section" style="margin:0 auto 2.4rem;text-align:center" data-i18n="domaine1_sous">Neufs et d'occasion — gros porteurs, poids légers et véhicules spéciaux, sélectionnés sur toute la planète automobile.</p>
 
       <div class="chips-categories" id="chipsCategories">
-        <button class="chip actif" data-categorie="tous">Tous</button>
-        <button class="chip" data-categorie="gros-porteur">Gros Porteurs</button>
-        <button class="chip" data-categorie="poids-leger">Poids Légers</button>
-        <button class="chip" data-categorie="special">Spéciaux &amp; Utilitaires</button>
+        <button class="chip actif" data-categorie="tous" data-i18n="chip_tous">Tous</button>
+        <button class="chip" data-categorie="gros-porteur" data-i18n="chip_gros">Gros Porteurs</button>
+        <button class="chip" data-categorie="poids-leger" data-i18n="chip_leger">Poids Légers</button>
+        <button class="chip" data-categorie="special" data-i18n="chip_special">Spéciaux &amp; Utilitaires</button>
       </div>
 
       <div class="barre-filtres">
         <div class="filtre-recherche">
           <svg viewBox="0 0 24 24"><use href="#ic-recherche"/></svg>
-          <input type="text" id="rechercheVehicule" placeholder="Rechercher une marque, un modèle…">
+          <input type="text" id="rechercheVehicule" placeholder="Rechercher une marque, un modèle…" data-i18n-placeholder="recherche_placeholder">
         </div>
         <select class="filtre-select" id="filtreMarque"><option value="tous">Toutes les marques</option></select>
         <select class="filtre-select" id="filtreEtat">
@@ -162,21 +176,21 @@
 
     <!-- ---- DOMAINE SERVICES ---- -->
     <div id="domaineServices" style="display:none">
-      <p class="eyebrow" style="justify-content:center">Domaine 2</p>
-      <h2 class="titre-section" style="text-align:center">Services d'entretien &amp; de nettoyage</h2>
-      <p class="soustitre-section" style="margin:0 auto 2.4rem;text-align:center">Un detailing de précision, pensé aussi bien pour les flottes lourdes que pour les véhicules de prestige.</p>
+      <p class="eyebrow" style="justify-content:center" data-i18n="domaine2_eyebrow">Domaine 2</p>
+      <h2 class="titre-section" style="text-align:center" data-i18n="domaine2_titre">Services d'entretien &amp; de nettoyage</h2>
+      <p class="soustitre-section" style="margin:0 auto 2.4rem;text-align:center" data-i18n="domaine2_sous">Un detailing de précision, pensé aussi bien pour les flottes lourdes que pour les véhicules de prestige.</p>
 
       <div class="chips-categories">
-        <button class="chip actif" data-service-cat="tous">Toutes les prestations</button>
-        <button class="chip" data-service-cat="gros-porteur">Gros Porteurs</button>
-        <button class="chip" data-service-cat="poids-leger">Poids Légers</button>
+        <button class="chip actif" data-service-cat="tous" data-i18n="chip_toutes_prestations">Toutes les prestations</button>
+        <button class="chip" data-service-cat="gros-porteur" data-i18n="chip_gros">Gros Porteurs</button>
+        <button class="chip" data-service-cat="poids-leger" data-i18n="chip_leger">Poids Légers</button>
       </div>
 
       <div class="grille-services" id="grilleServices"></div>
 
       <div class="bloc-materiel">
-        <p class="eyebrow">Matériel professionnel</p>
-        <h3 style="font-size:1.6rem">L'arsenal ZAKARI Detailing</h3>
+        <p class="eyebrow" data-i18n="materiel_eyebrow">Matériel professionnel</p>
+        <h3 style="font-size:1.6rem" data-i18n="materiel_titre">L'arsenal ZAKARI Detailing</h3>
         <div class="grille-materiel" id="grilleMateriel"></div>
       </div>
     </div>
@@ -190,9 +204,9 @@
 <!-- ============ CONTACT ============ -->
 <section class="section" id="contact">
   <div class="container">
-    <p class="eyebrow">Nous joindre</p>
-    <h2 class="titre-section">Un projet, un véhicule, une prestation ?</h2>
-    <p class="soustitre-section" style="margin-bottom:2.6rem">Nos équipes en Allemagne et au Bénin répondent directement sur WhatsApp.</p>
+    <p class="eyebrow" data-i18n="contact_eyebrow">Nous joindre</p>
+    <h2 class="titre-section" data-i18n="contact_titre">Un projet, un véhicule, une prestation ?</h2>
+    <p class="soustitre-section" style="margin-bottom:2.6rem" data-i18n="contact_sous">Nos équipes en Allemagne et au Bénin répondent directement sur WhatsApp.</p>
     <div class="grille-contact">
       <div class="canaux-contact">
         <a class="canal canal-whatsapp" href="https://wa.me/4915210146536" target="_blank" rel="noopener">
@@ -234,18 +248,18 @@
     <div class="grille-pied">
       <div>
         <div class="pied-marque"><svg viewBox="0 0 200 200"><use href="#logo-aigle"/></svg><span>ZAKARI GRUPPE</span></div>
-        <p class="desc">Négoce de véhicules et atelier de detailing premium — une confidentialité totale, une exigence intacte.</p>
+        <p class="desc" data-i18n="pied_desc">Négoce de véhicules et atelier de detailing premium — une confidentialité totale, une exigence intacte.</p>
       </div>
       <div>
-        <h4>Navigation</h4>
-        <ul><li><a href="#accueil">Accueil</a></li><li><a href="#vehicules">Véhicules</a></li><li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li></ul>
+        <h4 data-i18n="pied_navigation">Navigation</h4>
+        <ul><li><a href="#accueil" data-i18n="nav_accueil">Accueil</a></li><li><a href="#vehicules" data-i18n="nav_vehicules">Véhicules</a></li><li><a href="#services" data-i18n="nav_services">Services</a></li><li><a href="#contact" data-i18n="nav_contact">Contact</a></li></ul>
       </div>
       <div>
-        <h4>Domaines</h4>
-        <ul><li>Gros Porteurs</li><li>Poids Légers</li><li>Spéciaux &amp; Utilitaires</li><li>Detailing Premium</li></ul>
+        <h4 data-i18n="pied_domaines">Domaines</h4>
+        <ul><li data-i18n="chip_gros">Gros Porteurs</li><li data-i18n="chip_leger">Poids Légers</li><li data-i18n="chip_special">Spéciaux &amp; Utilitaires</li><li data-i18n="pied_detailing">Detailing Premium</li></ul>
       </div>
       <div>
-        <h4>Boutique partenaire</h4>
+        <h4 data-i18n="pied_boutique">Boutique partenaire</h4>
         <div class="bloc-cta-empire">
           <p><b>Boutique officielle de scripts, codes sources et outils par EMPIRE CODE.</b></p>
           <a class="btn btn-or btn-petit" href="https://empirecode.mychariow.co/" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24"><use href="#ic-boutique"/></svg>Visiter</a>
@@ -276,6 +290,26 @@
   <div class="modale modale-large">
     <button class="fermer-modale" data-fermer="modaleFiche"><svg viewBox="0 0 24 24"><use href="#ic-x"/></svg></button>
     <div id="contenuFiche"></div>
+  </div>
+</div>
+
+<!-- ============ MODALE : TUNNEL DE COMMANDE GÉOGRAPHIQUE ============ -->
+<div class="superposition" id="modaleCommande">
+  <div class="modale">
+    <button class="fermer-modale" data-fermer="modaleCommande"><svg viewBox="0 0 24 24"><use href="#ic-x"/></svg></button>
+    <p class="eyebrow" data-i18n="commande_eyebrow">Où êtes-vous situé ?</p>
+    <h3 data-i18n="commande_titre">Choisissez votre pays</h3>
+    <div class="recap-commande" id="recapCommande"></div>
+    <div class="choix-pays">
+      <button class="option-pays" data-pays="allemagne" data-numero="4915210146536">
+        <span class="drapeau">🇩🇪</span>
+        <span><b data-i18n="pays_allemagne">Allemagne</b><span>+49 1521 0146536</span></span>
+      </button>
+      <button class="option-pays" data-pays="benin" data-numero="2290196809106">
+        <span class="drapeau">🇧🇯</span>
+        <span><b data-i18n="pays_benin">Bénin</b><span>+229 01 96 80 91 06</span></span>
+      </button>
+    </div>
   </div>
 </div>
 

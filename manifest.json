@@ -1,0 +1,33 @@
+{
+  "name": "ZAKARI GRUPPE — Véhicules & Detailing Premium",
+  "short_name": "ZAKARI GRUPPE",
+  "description": "Vente de véhicules neufs et d'occasion et services haut de gamme de nettoyage et d'entretien automobile, disponible hors-ligne.",
+  "id": "/",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#0a0b0d",
+  "theme_color": "#0a0b0d",
+  "lang": "fr",
+  "dir": "ltr",
+  "categories": ["business", "shopping", "automotive"],
+  "icons": [
+    { "src": "icons/icon-72.png", "sizes": "72x72", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-96.png", "sizes": "96x96", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-128.png", "sizes": "128x128", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-144.png", "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-152.png", "sizes": "152x152", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-180.png", "sizes": "180x180", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-384.png", "sizes": "384x384", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Voir les véhicules", "url": "./index.html#vehicules", "description": "Ouvrir la galerie de véhicules" },
+    { "name": "Services de detailing", "url": "./index.html#services", "description": "Ouvrir la galerie des prestations" },
+    { "name": "Nous contacter", "url": "./index.html#contact", "description": "Ouvrir la section contact" }
+  ]
+}

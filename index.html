@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ZAKARI GRUPPE — Véhicules d'exception &amp; Detailing Premium</title>
+<meta name="description" content="ZAKARI GRUPPE : vente de véhicules neufs et d'occasion (poids lourds, tourisme, spéciaux) et services haut de gamme de nettoyage et d'entretien automobile.">
+<meta name="theme-color" content="#0a0b0d">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230a0b0d'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='%23c9a227'%3E★%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ DÉFINITIONS SVG PARTAGÉES (LOGO AIGLE OR / DIAMANT) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="grad-or" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4d97a"/>
+      <stop offset="45%" stop-color="#c9a227"/>
+      <stop offset="100%" stop-color="#8a6c14"/>
+    </linearGradient>
+    <linearGradient id="grad-diamant" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c7cbd1"/>
+    </linearGradient>
+    <!-- Symbole officiel : l'aigle ZAKARI, ailes déployées façon taille diamant -->
+    <symbol id="logo-aigle" viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="97" fill="#0a0b0d" stroke="url(#grad-or)" stroke-width="2"/>
+      <!-- ailes gauche -->
+      <path d="M100 108 L18 70 L30 96 L14 100 L32 108 L20 120 L44 122 L38 140 L62 128 L70 140 L100 118 Z" fill="url(#grad-or)"/>
+      <!-- ailes droite -->
+      <path d="M100 108 L182 70 L170 96 L186 100 L168 108 L180 120 L156 122 L162 140 L138 128 L130 140 L100 118 Z" fill="url(#grad-or)"/>
+      <!-- corps / tête -->
+      <path d="M100 40 C112 40 120 50 120 62 C120 72 114 78 108 82 L118 100 L100 112 L82 100 L92 82 C86 78 80 72 80 62 C80 50 88 40 100 40 Z" fill="url(#grad-diamant)"/>
+      <!-- bec -->
+      <path d="M100 78 L110 90 L100 96 L90 90 Z" fill="url(#grad-or)"/>
+      <!-- oeil -->
+      <circle cx="94" cy="66" r="2.6" fill="#0a0b0d"/>
+      <!-- queue / serres -->
+      <path d="M100 118 L86 150 L100 142 L114 150 Z" fill="url(#grad-diamant)"/>
+      <!-- facette diamant décorative sous l'aigle -->
+      <path d="M100 150 L112 162 L100 176 L88 162 Z" fill="none" stroke="url(#grad-or)" stroke-width="1.5"/>
+    </symbol>
+
+    <symbol id="ic-camion" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 14h13V6H1v8Zm13-5h4l3 3v2h-7V9ZM4 18a1.6 1.6 0 1 0 0-3.2A1.6 1.6 0 0 0 4 18Zm12 0a1.6 1.6 0 1 0 0-3.2A1.6 1.6 0 0 0 16 18Z"/></symbol>
+    <symbol id="ic-voiture" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 13l2-5a2 2 0 0 1 2-1h10a2 2 0 0 1 2 1l2 5v5H3v-5Z"/><circle cx="7" cy="18" r="1.5"/><circle cx="17" cy="18" r="1.5"/><path d="M3 13h18"/></symbol>
+    <symbol id="ic-engin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 15V8l5-3 5 3v7"/><circle cx="6" cy="18" r="2"/><circle cx="14" cy="18" r="2"/><path d="M16 15h5v-3l-3-3h-2"/></symbol>
+    <symbol id="ic-spray" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 2h4v3H9zM8 5h6l1 4H7l1-4Zm-1 4h8v13H7V9Z"/><path d="M17 6l2-1M18 9h2M17 12l2 1"/></symbol>
+    <symbol id="ic-polish" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="1.6"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/></symbol>
+    <symbol id="ic-ozone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3c3 3 6 6.5 6 10a6 6 0 0 1-12 0c0-3.5 3-7 6-10Z"/></symbol>
+    <symbol id="ic-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12l6 6L20 6"/></symbol>
+    <symbol id="ic-whatsapp" viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.6.8 5 2.1 7L3 29l6.6-2.3c2 1.1 4.2 1.7 6.4 1.7 7 0 12.7-5.6 12.7-12.6C28.7 8.6 23 3 16 3Zm0 22.9c-2 0-4-.5-5.7-1.5l-.4-.2-4 1.4 1.3-3.9-.3-.4a10 10 0 0 1-1.6-5.4C5.3 9.9 10.1 5.1 16 5.1c5.9 0 10.7 4.8 10.7 10.7S21.9 25.9 16 25.9Zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6-.1-.2-.7-1.8-1-2.4-.3-.7-.5-.6-.7-.6h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5 0 1.5 1.1 2.9 1.2 3.1.2.2 2.2 3.3 5.3 4.6.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5 0-.1-.3-.2-.6-.4Z"/></symbol>
+    <symbol id="ic-email" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M3 6l9 7 9-7"/></symbol>
+    <symbol id="ic-cadenas" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="10.5" width="16" height="10" rx="1.5"/><path d="M7.5 10.5V7a4.5 4.5 0 0 1 9 0v3.5"/></symbol>
+    <symbol id="ic-recherche" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M20 20l-4.5-4.5"/></symbol>
+    <symbol id="ic-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 4v16M4 12h16"/></symbol>
+    <symbol id="ic-edit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20h4L18.5 9.5a2.1 2.1 0 0 0-3-3L5 17v3Z"/></symbol>
+    <symbol id="ic-trash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></symbol>
+    <symbol id="ic-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 5l14 14M19 5L5 19"/></symbol>
+    <symbol id="ic-boite" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 8l-9-5-9 5 9 5 9-5Zm0 0v8l-9 5m9-13-9 5m-9-5v8l9 5"/></symbol>
+    <symbol id="ic-moteur" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12h4l2-3h6l2 3h4M6 12v4h12v-4M9 16v3M15 16v3"/></symbol>
+    <symbol id="ic-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.5 6 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-6-3.5-9s1-6.5 3.5-9Z"/></symbol>
+    <symbol id="ic-boutique" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 9l1.5-5h15L21 9M4 9h16v10H4V9Zm4 0v3a2 2 0 0 0 4 0V9m0 0v3a2 2 0 0 0 4 0V9"/></symbol>
+  </defs>
+</svg>
+
+<div class="trame-diamant"></div>
+
+<!-- Bandeau hors-ligne -->
+<div class="bandeau-hors-ligne" id="bandeauHorsLigne">MODE HORS CONNEXION — CATALOGUE LOCAL AFFICHÉ</div>
+
+<!-- ============ EN-TÊTE ============ -->
+<header class="entete">
+  <nav class="nav">
+    <a href="#accueil" class="marque-nav">
+      <svg class="logo-mini" viewBox="0 0 200 200"><use href="#logo-aigle"/></svg>
+      <span class="texte-marque">ZAKARI GRUPPE<span>VÉHICULES · DETAILING</span></span>
+    </a>
+    <ul class="liens-nav" id="liensNav">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#vehicules">Véhicules</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="actions-nav">
+      <button class="btn btn-fantome btn-petit btn-installer" id="btnInstaller"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v13m0 0l-5-5m5 5l5-5M4 21h16"/></svg><span>Installer l'app</span></button>
+      <button class="burger" id="btnBurger" aria-label="Menu"><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" id="accueil">
+  <div class="hero-lueur" aria-hidden="true"></div>
+  <svg class="logo-hero" viewBox="0 0 200 200"><use href="#logo-aigle" class="plume"/></svg>
+  <p class="eyebrow" style="justify-content:center">Depuis le Bénin, vers l'excellence automobile</p>
+  <h1>L'exigence <em>ZAKARI</em><br>a quatre roues.</h1>
+  <p class="hero-baseline">Vente de véhicules neufs et d'occasion — poids lourds, tourisme et engins spéciaux — associée à un atelier de detailing haut de gamme qui restitue à chaque véhicule son éclat d'origine.</p>
+  <div class="hero-cta">
+    <a href="#vehicules" class="btn btn-or">Découvrir le catalogue</a>
+    <a href="#services" class="btn btn-fantome">Voir les prestations</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><b id="statVehicules">0</b><span>Véhicules référencés</span></div>
+    <div class="stat"><b>3</b><span>Continents de marques</span></div>
+    <div class="stat"><b>100%</b><span>Disponible hors-ligne</span></div>
+  </div>
+  <div class="scroll-indic" aria-hidden="true"></div>
+</section>
+
+<div class="separateur-facette" aria-hidden="true">
+  <svg viewBox="0 0 1320 64" preserveAspectRatio="none"><polyline points="0,32 200,32 240,8 280,56 320,32 1000,32 1040,8 1080,56 1120,32 1320,32" fill="none" stroke="#2a2c33" stroke-width="1"/></svg>
+</div>
+
+<!-- ============ SÉLECTEUR DE DOMAINE ============ -->
+<section class="section" id="vehicules">
+  <div class="container">
+    <div class="selecteur-domaine">
+      <button class="onglet-domaine actif" data-domaine="vehicules"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><use href="#ic-voiture"/></svg>Galerie Véhicules</button>
+      <button class="onglet-domaine" data-domaine="services"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><use href="#ic-spray"/></svg>Services &amp; Detailing</button>
+    </div>
+
+    <!-- ---- DOMAINE VÉHICULES ---- -->
+    <div id="domaineVehicules">
+      <p class="eyebrow" style="justify-content:center">Domaine 1</p>
+      <h2 class="titre-section" style="text-align:center">Galerie de vente de véhicules</h2>
+      <p class="soustitre-section" style="margin:0 auto 2.4rem;text-align:center">Neufs et d'occasion — gros porteurs, poids légers et véhicules spéciaux, sélectionnés sur toute la planète automobile.</p>
+
+      <div class="chips-categories" id="chipsCategories">
+        <button class="chip actif" data-categorie="tous">Tous</button>
+        <button class="chip" data-categorie="gros-porteur">Gros Porteurs</button>
+        <button class="chip" data-categorie="poids-leger">Poids Légers</button>
+        <button class="chip" data-categorie="special">Spéciaux &amp; Utilitaires</button>
+      </div>
+
+      <div class="barre-filtres">
+        <div class="filtre-recherche">
+          <svg viewBox="0 0 24 24"><use href="#ic-recherche"/></svg>
+          <input type="text" id="rechercheVehicule" placeholder="Rechercher une marque, un modèle…">
+        </div>
+        <select class="filtre-select" id="filtreMarque"><option value="tous">Toutes les marques</option></select>
+        <select class="filtre-select" id="filtreEtat">
+          <option value="tous">Neuf &amp; Occasion</option>
+          <option value="Neuf">Neuf</option>
+          <option value="Occasion">Occasion</option>
+        </select>
+        <select class="filtre-select" id="filtreOrigine"><option value="tous">Toutes origines</option></select>
+        <select class="filtre-select" id="filtreTri">
+          <option value="recent">Plus récents</option>
+          <option value="prix-asc">Prix croissant</option>
+          <option value="prix-desc">Prix décroissant</option>
+        </select>
+      </div>
+
+      <p class="compteur-resultats" id="compteurVehicules">— véhicules affichés</p>
+      <div class="grille-vehicules" id="grilleVehicules"></div>
+      <div class="zone-plus"><button class="btn btn-fantome" id="btnPlusVehicules">Charger plus de véhicules</button></div>
+    </div>
+
+    <!-- ---- DOMAINE SERVICES ---- -->
+    <div id="domaineServices" style="display:none">
+      <p class="eyebrow" style="justify-content:center">Domaine 2</p>
+      <h2 class="titre-section" style="text-align:center">Services d'entretien &amp; de nettoyage</h2>
+      <p class="soustitre-section" style="margin:0 auto 2.4rem;text-align:center">Un detailing de précision, pensé aussi bien pour les flottes lourdes que pour les véhicules de prestige.</p>
+
+      <div class="chips-categories">
+        <button class="chip actif" data-service-cat="tous">Toutes les prestations</button>
+        <button class="chip" data-service-cat="gros-porteur">Gros Porteurs</button>
+        <button class="chip" data-service-cat="poids-leger">Poids Légers</button>
+      </div>
+
+      <div class="grille-services" id="grilleServices"></div>
+
+      <div class="bloc-materiel">
+        <p class="eyebrow">Matériel professionnel</p>
+        <h3 style="font-size:1.6rem">L'arsenal ZAKARI Detailing</h3>
+        <div class="grille-materiel" id="grilleMateriel"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="separateur-facette" aria-hidden="true">
+  <svg viewBox="0 0 1320 64" preserveAspectRatio="none"><polyline points="0,32 200,32 240,8 280,56 320,32 1000,32 1040,8 1080,56 1120,32 1320,32" fill="none" stroke="#2a2c33" stroke-width="1"/></svg>
+</div>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <p class="eyebrow">Nous joindre</p>
+    <h2 class="titre-section">Un projet, un véhicule, une prestation ?</h2>
+    <p class="soustitre-section" style="margin-bottom:2.6rem">Nos équipes en Allemagne et au Bénin répondent directement sur WhatsApp.</p>
+    <div class="grille-contact">
+      <div class="canaux-contact">
+        <a class="canal canal-whatsapp" href="https://wa.me/4915210146536" target="_blank" rel="noopener">
+          <span class="icone-canal"><svg viewBox="0 0 32 32"><use href="#ic-whatsapp"/></svg></span>
+          <span class="texte-canal"><b>WhatsApp — Allemagne</b><span>+49 1521 0146536</span></span>
+          <span class="puce-live"></span>
+        </a>
+        <a class="canal canal-whatsapp" href="https://wa.me/2290196809106" target="_blank" rel="noopener">
+          <span class="icone-canal"><svg viewBox="0 0 32 32"><use href="#ic-whatsapp"/></svg></span>
+          <span class="texte-canal"><b>WhatsApp — Bénin</b><span>+229 01 96 80 91 06</span></span>
+          <span class="puce-live"></span>
+        </a>
+        <a class="canal canal-email" href="mailto:empiredonko@gmail.com">
+          <span class="icone-canal"><svg viewBox="0 0 24 24"><use href="#ic-email"/></svg></span>
+          <span class="texte-canal"><b>Email — Bénin</b><span>empiredonko@gmail.com</span></span>
+        </a>
+      </div>
+      <form class="carte-formulaire" id="formulaireContact">
+        <div class="champ"><label>Nom complet</label><input type="text" required></div>
+        <div class="champ"><label>Votre demande</label>
+          <select>
+            <option>Achat d'un véhicule</option>
+            <option>Vente / reprise</option>
+            <option>Prestation de detailing</option>
+            <option>Autre demande</option>
+          </select>
+        </div>
+        <div class="champ"><label>Message</label><textarea placeholder="Décrivez votre besoin…" required></textarea></div>
+        <button type="submit" class="btn btn-or" style="width:100%">Envoyer sur WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ PIED DE PAGE ============ -->
+<footer class="pied">
+  <div class="container">
+    <div class="grille-pied">
+      <div>
+        <div class="pied-marque"><svg viewBox="0 0 200 200"><use href="#logo-aigle"/></svg><span>ZAKARI GRUPPE</span></div>
+        <p class="desc">Négoce de véhicules et atelier de detailing premium — une confidentialité totale, une exigence intacte.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul><li><a href="#accueil">Accueil</a></li><li><a href="#vehicules">Véhicules</a></li><li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li></ul>
+      </div>
+      <div>
+        <h4>Domaines</h4>
+        <ul><li>Gros Porteurs</li><li>Poids Légers</li><li>Spéciaux &amp; Utilitaires</li><li>Detailing Premium</li></ul>
+      </div>
+      <div>
+        <h4>Boutique partenaire</h4>
+        <div class="bloc-cta-empire">
+          <p><b>Boutique officielle de scripts, codes sources et outils par EMPIRE CODE.</b></p>
+          <a class="btn btn-or btn-petit" href="https://empirecode.mychariow.co/" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24"><use href="#ic-boutique"/></svg>Visiter</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloc-confidentialite">
+      <p>« Une idée d'outil sur mesure, fonctionnant hors connexion, hors serveur, hors base de données, pour votre activité et votre confidentialité ? Écrivez-nous. Par : WhatsApp : +2290196809106, email : empiredonko@gmail.com. »</p>
+      <div class="mini-canaux">
+        <a class="icone-canal canal-whatsapp" style="background:#25d366;color:#fff" href="https://wa.me/2290196809106" target="_blank" rel="noopener"><svg viewBox="0 0 32 32"><use href="#ic-whatsapp"/></svg></a>
+        <a class="icone-canal" style="background:linear-gradient(135deg,#ea4335,#fbbc05 50%,#4285f4);color:#fff;animation:clignoter 2.4s ease-in-out infinite" href="mailto:empiredonko@gmail.com"><svg viewBox="0 0 24 24"><use href="#ic-email"/></svg></a>
+      </div>
+    </div>
+
+    <div class="bas-pied">
+      <span>© <span id="anneeCourante"></span> ZAKARI GRUPPE — Tous droits réservés.</span>
+      <span class="powered-by">Powered by <b>EMPIRE CODE</b></span>
+    </div>
+  </div>
+</footer>
+
+<!-- Bouton discret Accès Pro -->
+<button class="acces-pro" id="btnAccesPro" title="Accès Pro" aria-label="Accès Pro"><svg viewBox="0 0 24 24"><use href="#ic-cadenas"/></svg></button>
+
+<!-- ============ MODALE : FICHE VÉHICULE DÉTAILLÉE ============ -->
+<div class="superposition" id="modaleFiche">
+  <div class="modale modale-large">
+    <button class="fermer-modale" data-fermer="modaleFiche"><svg viewBox="0 0 24 24"><use href="#ic-x"/></svg></button>
+    <div id="contenuFiche"></div>
+  </div>
+</div>
+
+<!-- ============ MODALE : CONNEXION ACCÈS PRO ============ -->
+<div class="superposition" id="modaleLogin">
+  <div class="modale">
+    <button class="fermer-modale" data-fermer="modaleLogin"><svg viewBox="0 0 24 24"><use href="#ic-x"/></svg></button>
+    <p class="eyebrow"><svg width="13" height="13" viewBox="0 0 24 24" style="stroke:currentColor;fill:none;stroke-width:1.6"><use href="#ic-cadenas"/></svg>Espace réservé</p>
+    <h3>Accès Pro</h3>
+    <form id="formulaireLogin">
+      <div class="champ"><label>Mot de passe administrateur</label><input type="password" id="motDePasseAdmin" required autocomplete="current-password"></div>
+      <p id="erreurLogin" style="color:#e05a5a;font-size:.8rem;display:none;margin-bottom:1rem">Mot de passe incorrect.</p>
+      <button type="submit" class="btn btn-or" style="width:100%">Entrer</button>
+    </form>
+  </div>
+</div>
+
+<!-- ============ MODALE : PANNEAU ADMIN ============ -->
+<div class="superposition" id="modaleAdmin">
+  <div class="modale modale-large">
+    <button class="fermer-modale" data-fermer="modaleAdmin"><svg viewBox="0 0 24 24"><use href="#ic-x"/></svg></button>
+    <p class="eyebrow">Espace réservé</p>
+    <h3>Panneau d'administration</h3>
+    <div class="onglets-admin">
+      <button class="onglet-admin-btn actif" data-admin-tab="vehicules">Véhicules</button>
+      <button class="onglet-admin-btn" data-admin-tab="services">Prestations</button>
+    </div>
+    <button class="btn btn-or btn-petit" id="btnAjouterElement"><svg width="14" height="14" viewBox="0 0 24 24"><use href="#ic-plus"/></svg>Ajouter un élément</button>
+    <div style="overflow-x:auto"><table class="table-admin"><thead id="enteteTableAdmin"></thead><tbody id="corpsTableAdmin"></tbody></table></div>
+    <div class="statut-sync"><span class="point-sync" id="pointSync"></span><span id="texteSync">Synchronisation locale (LocalStorage)</span></div>
+  </div>
+</div>
+
+<!-- ============ MODALE : FORMULAIRE ÉDITION VÉHICULE/SERVICE ============ -->
+<div class="superposition" id="modaleEdition">
+  <div class="modale modale-large">
+    <button class="fermer-modale" data-fermer="modaleEdition"><svg viewBox="0 0 24 24"><use href="#ic-x"/></svg></button>
+    <h3 id="titreModaleEdition">Ajouter un véhicule</h3>
+    <form id="formulaireEdition"></form>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

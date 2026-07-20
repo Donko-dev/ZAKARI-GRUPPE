@@ -4,7 +4,7 @@
    Stale-While-Revalidate pour un fonctionnement 100% hors-ligne.
    ========================================================================== */
 
-const VERSION_CACHE = 'zakari-gruppe-v1.2.0';
+const VERSION_CACHE = 'zakari-gruppe-v1.3.0';
 const CACHE_STATIQUE = `${VERSION_CACHE}-statique`;
 const CACHE_DYNAMIQUE = `${VERSION_CACHE}-dynamique`;
 
@@ -45,7 +45,22 @@ const RESSOURCES_APP_SHELL = [
   './images/vehicules/scania-r660-1.jpg',
   './images/vehicules/scania-r660-2.jpg',
   './images/vehicules/man-tgx-1.jpg',
-  './images/vehicules/renault-thigh-1.jpg'
+  './images/vehicules/renault-thigh-1.jpg',
+  './images/vehicules/scania-lineup-1.jpg',
+  './images/vehicules/scania-r660-3.jpg',
+  './images/vehicules/scania-r660-4.jpg',
+  './images/vehicules/scania-r660-5.jpg',
+  './images/vehicules/toyota-landcruiser-1.jpg',
+  './images/vehicules/toyota-landcruiser-2.jpg',
+  './images/vehicules/toyota-landcruiser-3.jpg',
+  './images/vehicules/toyota-hilux-1.jpg',
+  './images/vehicules/toyota-hilux-2.jpg',
+  './images/vehicules/toyota-hilux-3.jpg',
+  './images/vehicules/ford-ranger-1.jpg',
+  './images/vehicules/ford-ranger-2.jpg',
+  './images/vehicules/ford-ranger-3.jpg',
+  './images/vehicules/ford-ranger-4.jpg',
+  './images/vehicules/ford-ranger-5.jpg'
 ];
 
 /* ---------------------- INSTALLATION ---------------------- */

@@ -168,19 +168,45 @@ const PHOTOS_REELLES = {
     'images/vehicules/daf-xf-5.jpg','images/vehicules/daf-xf-3.jpg','images/vehicules/daf-xf-6.jpg'
   ],
   'Scania R 660 V8': [
-    'images/vehicules/scania-r660-1.jpg','images/vehicules/scania-r660-2.jpg'
+    'images/vehicules/scania-lineup-1.jpg','images/vehicules/scania-r660-3.jpg','images/vehicules/scania-r660-4.jpg',
+    'images/vehicules/scania-r660-5.jpg','images/vehicules/scania-r660-1.jpg','images/vehicules/scania-r660-2.jpg'
   ],
   'MAN Trucks TGX 18.510': [
     'images/vehicules/man-tgx-1.jpg'
   ],
   'Renault Trucks T High 520': [
     'images/vehicules/renault-thigh-1.jpg'
+  ],
+  'Toyota Land Cruiser': [
+    'images/vehicules/toyota-landcruiser-1.jpg','images/vehicules/toyota-landcruiser-2.jpg','images/vehicules/toyota-landcruiser-3.jpg'
   ]
 };
 VEHICULES_INITIAUX.forEach(vehicule=>{
   const cle = `${vehicule.marque} ${vehicule.modele}`;
   if(PHOTOS_REELLES[cle]) vehicule.images = PHOTOS_REELLES[cle];
 });
+
+/* --------------------------------------------------------------------
+   2-ter. PANORAMA DÉFILANT DU HERO — toutes les photos réelles transmises
+   -------------------------------------------------------------------- */
+const PANORAMA_IMAGES = [
+  'images/vehicules/scania-lineup-1.jpg','images/vehicules/scania-r660-3.jpg','images/vehicules/scania-r660-4.jpg','images/vehicules/scania-r660-5.jpg',
+  'images/vehicules/toyota-landcruiser-1.jpg','images/vehicules/toyota-landcruiser-2.jpg','images/vehicules/toyota-landcruiser-3.jpg',
+  'images/vehicules/ford-ranger-1.jpg','images/vehicules/ford-ranger-2.jpg','images/vehicules/ford-ranger-3.jpg','images/vehicules/ford-ranger-4.jpg','images/vehicules/ford-ranger-5.jpg',
+  'images/vehicules/toyota-hilux-1.jpg','images/vehicules/toyota-hilux-2.jpg','images/vehicules/toyota-hilux-3.jpg',
+  'images/vehicules/iveco-trakker-1.jpg','images/vehicules/iveco-trakker-2.jpg','images/vehicules/iveco-trakker-3.jpg','images/vehicules/iveco-trakker-4.jpg',
+  'images/vehicules/iveco-trakker-5.jpg','images/vehicules/iveco-trakker-6.jpg','images/vehicules/iveco-trakker-7.jpg',
+  'images/vehicules/iveco-sway-1.jpg','images/vehicules/iveco-sway-2.jpg','images/vehicules/iveco-sway-3.jpg',
+  'images/vehicules/daf-xf-1.jpg','images/vehicules/daf-xf-2.jpg','images/vehicules/daf-xf-3.jpg','images/vehicules/daf-xf-4.jpg','images/vehicules/daf-xf-5.jpg','images/vehicules/daf-xf-6.jpg',
+  'images/vehicules/man-tgx-1.jpg','images/vehicules/renault-thigh-1.jpg','images/vehicules/scania-r660-1.jpg','images/vehicules/scania-r660-2.jpg'
+];
+function initialiserPanorama(){
+  const piste = document.getElementById('panoramaPiste');
+  if(!piste) return;
+  // Doublé pour permettre une boucle d'animation parfaitement continue (0 → -50%)
+  const sequence = [...PANORAMA_IMAGES, ...PANORAMA_IMAGES];
+  piste.innerHTML = sequence.map(src=>`<img src="${src}" alt="Véhicule ZAKARI GRUPPE" loading="lazy">`).join('');
+}
 
 /* --------------------------------------------------------------------
    3. DONNÉES INITIALES — SERVICES DE DETAILING
@@ -1208,4 +1234,5 @@ peuplerSelecteurDevise();
 appliquerLangue(langueActuelle);
 majEtatReseau();
 rafraichirTout();
+initialiserPanorama();
 synchroniserDepuisGoogleSheets();

@@ -178,7 +178,31 @@ h1,h2,h3,h4{font-family:var(--f-display);font-weight:600;letter-spacing:.01em;co
 .scroll-indic::after{content:'';position:absolute;top:-46px;left:0;width:1px;height:46px;background:var(--or-clair);animation:couler 2.2s linear infinite}
 @keyframes couler{to{top:100%}}
 
-/* ==================== SÉPARATEUR FACETTE ==================== */
+/* Bannière "camions alignés" sous le logo */
+.hero-banniere-flotte{
+  width:min(620px,88vw);margin:0 auto 1.6rem;clip-path:var(--facette);border:1px solid var(--ligne);
+  box-shadow:var(--ombre-carte);
+}
+.hero-banniere-flotte img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
+
+/* Panorama défilant de véhicules (droite → gauche) */
+.panorama-vehicules{
+  width:100vw;margin:3.2rem calc(50% - 50vw) 0;overflow:hidden;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);
+}
+.panorama-piste{display:flex;align-items:center;gap:1rem;width:max-content;animation:defiler-panorama 90s linear infinite}
+.panorama-piste:hover{animation-play-state:paused}
+.panorama-piste img{
+  height:120px;width:180px;object-fit:cover;flex:none;border:1px solid var(--ligne);opacity:.85;
+  filter:saturate(.9);transition:opacity var(--transition),filter var(--transition),transform var(--transition);
+}
+.panorama-piste img:hover{opacity:1;filter:none;transform:translateY(-4px)}
+@keyframes defiler-panorama{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(max-width:640px){
+  .panorama-piste img{height:88px;width:132px}
+  .hero-banniere-flotte{margin-bottom:1.2rem}
+}
 .separateur-facette{height:64px;position:relative;margin:0 auto;max-width:1320px}
 .separateur-facette svg{width:100%;height:100%}
 

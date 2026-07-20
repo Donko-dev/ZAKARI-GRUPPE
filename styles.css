@@ -547,3 +547,4 @@ h1,h2,h3,h4{font-family:var(--f-display);font-weight:600;letter-spacing:.01em;co
 .ajouter-image-btn{width:76px;height:76px;border:1px dashed var(--ligne);display:grid;place-items:center;color:var(--diamant-sourd);flex-direction:column;gap:.2rem;font-size:.65rem}
 .ajouter-image-btn:hover{border-color:var(--or);color:var(--or-texte)}
 .note-champ{font-size:.7rem;color:var(--diamant-sourd);margin-top:-.6rem;margin-bottom:.8rem;display:block}
+.bloc-publication-json{margin-top:1.6rem;padding-top:1.4rem;border-top:1px solid var(--ligne)}

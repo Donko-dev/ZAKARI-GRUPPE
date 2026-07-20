@@ -1,0 +1,1408 @@
+{
+  "misAJourLe": "2026-07-20T09:23:54.362Z",
+  "vehicules": [
+    {
+      "id": "veh-1",
+      "marque": "Mercedes-Benz Trucks",
+      "modele": "Actros 1845",
+      "categorie": "gros-porteur",
+      "etat": "Neuf",
+      "prix": 128000,
+      "annee": 2026,
+      "moteur": "Diesel 12.8L 449ch",
+      "transmission": "Automatique 12 rapports",
+      "paysOrigine": "Allemagne",
+      "paysFabrication": "Allemagne",
+      "options": [
+        "Climatisation cabine",
+        "Écran multimédia 12\"",
+        "Frigo cabine",
+        "Régulateur adaptatif"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g1uj9iobg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g1uj9ioor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22g1uj9iop%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g1uj9iobg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g1uj9iop)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M2%2062h8V40l14-10h58l16%2014h20v18h8%20M10%2040h60%20M74%2030l16%2014%20M78%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%20M18%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23g1uj9ioor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EMT%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-2",
+      "marque": "MAN Trucks",
+      "modele": "TGX 18.510",
+      "categorie": "gros-porteur",
+      "etat": "Neuf",
+      "prix": 119500,
+      "annee": 2025,
+      "moteur": "Diesel 12.4L 510ch",
+      "transmission": "Automatique TipMatic",
+      "paysOrigine": "Allemagne",
+      "paysFabrication": "Allemagne",
+      "options": [
+        "Climatisation",
+        "Toit surélevé",
+        "Caméras périphériques"
+      ],
+      "images": [
+        "man-tgx-1.jpg"
+      ]
+    },
+    {
+      "id": "veh-3",
+      "marque": "Volvo Trucks",
+      "modele": "FH16 750",
+      "categorie": "gros-porteur",
+      "etat": "Occasion",
+      "prix": 98000,
+      "annee": 2022,
+      "moteur": "Diesel 16L 750ch",
+      "transmission": "I-Shift automatique",
+      "paysOrigine": "Suède",
+      "paysFabrication": "Belgique",
+      "options": [
+        "Climatisation",
+        "Écran tactile",
+        "Suspension pneumatique cabine"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gv8ga2obg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gv8ga2oor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gv8ga2op%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gv8ga2obg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gv8ga2op)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M2%2062h8V40l14-10h58l16%2014h20v18h8%20M10%2040h60%20M74%2030l16%2014%20M78%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%20M18%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gv8ga2oor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EVT%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-4",
+      "marque": "Scania",
+      "modele": "R 660 V8",
+      "categorie": "gros-porteur",
+      "etat": "Neuf",
+      "prix": 142000,
+      "annee": 2026,
+      "moteur": "Diesel V8 16.4L 660ch",
+      "transmission": "Opticruise automatique",
+      "paysOrigine": "Suède",
+      "paysFabrication": "Suède",
+      "options": [
+        "Cabine haute Highline",
+        "Climatisation",
+        "Frigo",
+        "Sono premium"
+      ],
+      "images": [
+        "scania-lineup-1.jpg",
+        "scania-r660-3.jpg",
+        "scania-r660-4.jpg",
+        "scania-r660-5.jpg",
+        "scania-r660-1.jpg",
+        "scania-r660-2.jpg"
+      ]
+    },
+    {
+      "id": "veh-5",
+      "marque": "DAF Trucks",
+      "modele": "XF 480",
+      "categorie": "gros-porteur",
+      "etat": "Occasion",
+      "prix": 87500,
+      "annee": 2021,
+      "moteur": "Diesel 12.9L 480ch",
+      "transmission": "TraXon automatique",
+      "paysOrigine": "Pays-Bas",
+      "paysFabrication": "Pays-Bas",
+      "options": [
+        "Climatisation",
+        "Écran 15\"",
+        "Régulateur de vitesse adaptatif"
+      ],
+      "images": [
+        "daf-xf-1.jpg",
+        "daf-xf-4.jpg",
+        "daf-xf-2.jpg",
+        "daf-xf-5.jpg",
+        "daf-xf-3.jpg",
+        "daf-xf-6.jpg"
+      ]
+    },
+    {
+      "id": "veh-6",
+      "marque": "IVECO",
+      "modele": "S-Way 570",
+      "categorie": "gros-porteur",
+      "etat": "Neuf",
+      "prix": 115000,
+      "annee": 2025,
+      "moteur": "Diesel 12.9L 570ch",
+      "transmission": "Hi-Tronix automatique",
+      "paysOrigine": "Italie",
+      "paysFabrication": "Italie",
+      "options": [
+        "Climatisation",
+        "Toit ouvrant cabine",
+        "Caméras 360°"
+      ],
+      "images": [
+        "iveco-sway-1.jpg",
+        "iveco-sway-2.jpg",
+        "iveco-sway-3.jpg"
+      ]
+    },
+    {
+      "id": "veh-7",
+      "marque": "Renault Trucks",
+      "modele": "T High 520",
+      "categorie": "gros-porteur",
+      "etat": "Occasion",
+      "prix": 92000,
+      "annee": 2022,
+      "moteur": "Diesel 12.8L 520ch",
+      "transmission": "Optidriver automatique",
+      "paysOrigine": "France",
+      "paysFabrication": "France",
+      "options": [
+        "Climatisation",
+        "Couchette double",
+        "Écran multimédia"
+      ],
+      "images": [
+        "renault-thigh-1.jpg"
+      ]
+    },
+    {
+      "id": "veh-8",
+      "marque": "Freightliner",
+      "modele": "Cascadia",
+      "categorie": "gros-porteur",
+      "etat": "Neuf",
+      "prix": 134000,
+      "annee": 2026,
+      "moteur": "Diesel Detroit DD15 505ch",
+      "transmission": "Automatique DT12",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation",
+        "Écran digital",
+        "Caméras miroirs numériques"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g46d6afbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g46d6afor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22g46d6afp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g46d6afbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g46d6afp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M2%2062h8V40l14-10h58l16%2014h20v18h8%20M10%2040h60%20M74%2030l16%2014%20M78%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%20M18%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23g46d6afor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EF%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-9",
+      "marque": "Peterbilt",
+      "modele": "389",
+      "categorie": "gros-porteur",
+      "etat": "Occasion",
+      "prix": 105000,
+      "annee": 2020,
+      "moteur": "Diesel Cummins X15 565ch",
+      "transmission": "Manuelle 18 rapports",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Capot long",
+        "Climatisation",
+        "Sièges chauffants"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22geig2vwbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22geig2vwor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22geig2vwp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23geig2vwbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23geig2vwp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M2%2062h8V40l14-10h58l16%2014h20v18h8%20M10%2040h60%20M74%2030l16%2014%20M78%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%20M18%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23geig2vwor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EP%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-10",
+      "marque": "Kenworth",
+      "modele": "W900",
+      "categorie": "gros-porteur",
+      "etat": "Occasion",
+      "prix": 110000,
+      "annee": 2021,
+      "moteur": "Diesel PACCAR MX-13 510ch",
+      "transmission": "Automatique",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation",
+        "Couchette élevée",
+        "Chromes premium"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gg771ojbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gg771ojor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gg771ojp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gg771ojbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gg771ojp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M2%2062h8V40l14-10h58l16%2014h20v18h8%20M10%2040h60%20M74%2030l16%2014%20M78%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%20M18%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gg771ojor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EK%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-11",
+      "marque": "Mack Trucks",
+      "modele": "Anthem",
+      "categorie": "gros-porteur",
+      "etat": "Neuf",
+      "prix": 121000,
+      "annee": 2025,
+      "moteur": "Diesel MP8 445ch",
+      "transmission": "mDRIVE automatique",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation",
+        "Écran tactile",
+        "Freinage assisté"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gk2uwxzbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gk2uwxzor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gk2uwxzp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gk2uwxzbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gk2uwxzp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M2%2062h8V40l14-10h58l16%2014h20v18h8%20M10%2040h60%20M74%2030l16%2014%20M78%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%20M18%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gk2uwxzor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EMT%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-12",
+      "marque": "International",
+      "modele": "LT Series",
+      "categorie": "gros-porteur",
+      "etat": "Occasion",
+      "prix": 96000,
+      "annee": 2021,
+      "moteur": "Diesel A26 450ch",
+      "transmission": "Automatique Endurant",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation",
+        "Régulateur adaptatif",
+        "Caméra de recul"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22geld4glbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22geld4glor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22geld4glp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23geld4glbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23geld4glp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M2%2062h8V40l14-10h58l16%2014h20v18h8%20M10%2040h60%20M74%2030l16%2014%20M78%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%20M18%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23geld4glor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EI%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-13",
+      "marque": "Isuzu",
+      "modele": "Giga",
+      "categorie": "gros-porteur",
+      "etat": "Neuf",
+      "prix": 88000,
+      "annee": 2025,
+      "moteur": "Diesel 15.6L 510ch",
+      "transmission": "Automatisée",
+      "paysOrigine": "Japon",
+      "paysFabrication": "Japon",
+      "options": [
+        "Climatisation",
+        "Écran multimédia",
+        "Freinage d'urgence"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gz9kkdtbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gz9kkdtor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gz9kkdtp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gz9kkdtbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gz9kkdtp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M2%2062h8V40l14-10h58l16%2014h20v18h8%20M10%2040h60%20M74%2030l16%2014%20M78%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%20M18%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gz9kkdtor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EI%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-14",
+      "marque": "Hino",
+      "modele": "700 Series",
+      "categorie": "gros-porteur",
+      "etat": "Occasion",
+      "prix": 72000,
+      "annee": 2020,
+      "moteur": "Diesel A09C 420ch",
+      "transmission": "Manuelle 16 rapports",
+      "paysOrigine": "Japon",
+      "paysFabrication": "Thaïlande",
+      "options": [
+        "Climatisation",
+        "Suspension renforcée"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g6gs9t2bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g6gs9t2or%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22g6gs9t2p%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g6gs9t2bg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g6gs9t2p)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M2%2062h8V40l14-10h58l16%2014h20v18h8%20M10%2040h60%20M74%2030l16%2014%20M78%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%20M18%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23g6gs9t2or)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EH%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-15",
+      "marque": "Fuso",
+      "modele": "Super Great",
+      "categorie": "gros-porteur",
+      "etat": "Neuf",
+      "prix": 85000,
+      "annee": 2025,
+      "moteur": "Diesel 6R20 510ch",
+      "transmission": "ShiftPilot automatique",
+      "paysOrigine": "Japon",
+      "paysFabrication": "Japon",
+      "options": [
+        "Climatisation",
+        "Caméras 360°",
+        "Régulateur adaptatif"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22glhmeosbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22glhmeosor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22glhmeosp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23glhmeosbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23glhmeosp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M2%2062h8V40l14-10h58l16%2014h20v18h8%20M10%2040h60%20M74%2030l16%2014%20M78%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%20M18%2062a8%208%200%201%200%2016%200%208%208%200%200%200-16%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23glhmeosor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EF%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-16",
+      "marque": "Volkswagen",
+      "modele": "Touareg",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 68500,
+      "annee": 2026,
+      "moteur": "V6 TDI 286ch",
+      "transmission": "Automatique 8 rapports",
+      "paysOrigine": "Allemagne",
+      "paysFabrication": "Slovaquie",
+      "options": [
+        "Climatisation bi-zone",
+        "Toit ouvrant panoramique",
+        "Écrans digitaux",
+        "Sièges cuir"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gjsth6xbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gjsth6xor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gjsth6xp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gjsth6xbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gjsth6xp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gjsth6xor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EV%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-17",
+      "marque": "Mercedes-Benz",
+      "modele": "Classe S",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 119000,
+      "annee": 2026,
+      "moteur": "6 cyl. 435ch hybride",
+      "transmission": "Automatique 9G-Tronic",
+      "paysOrigine": "Allemagne",
+      "paysFabrication": "Allemagne",
+      "options": [
+        "Climatisation 4 zones",
+        "Toit ouvrant",
+        "Écrans arrière",
+        "Massage sièges"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gyjcqmdbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gyjcqmdor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gyjcqmdp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gyjcqmdbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gyjcqmdp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gyjcqmdor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EM%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-18",
+      "marque": "BMW",
+      "modele": "X7",
+      "categorie": "poids-leger",
+      "etat": "Occasion",
+      "prix": 74000,
+      "annee": 2023,
+      "moteur": "6 cyl. 340ch",
+      "transmission": "Automatique Steptronic",
+      "paysOrigine": "Allemagne",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation",
+        "Toit panoramique",
+        "Écran 14.9\"",
+        "Sièges massants"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gqzwx12bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gqzwx12or%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gqzwx12p%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gqzwx12bg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gqzwx12p)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gqzwx12or)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EB%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-19",
+      "marque": "Audi",
+      "modele": "Q8 e-tron",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 89500,
+      "annee": 2026,
+      "moteur": "Électrique 408ch",
+      "transmission": "Transmission intégrale quattro",
+      "paysOrigine": "Allemagne",
+      "paysFabrication": "Belgique",
+      "options": [
+        "Climatisation",
+        "Toit ouvrant",
+        "Écrans MMI",
+        "Assistance conduite niveau 2"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gmfpa7ibg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gmfpa7ior%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gmfpa7ip%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gmfpa7ibg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gmfpa7ip)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gmfpa7ior)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EA%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-20",
+      "marque": "Porsche",
+      "modele": "Cayenne",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 105000,
+      "annee": 2026,
+      "moteur": "V6 Turbo 456ch",
+      "transmission": "Tiptronic S automatique",
+      "paysOrigine": "Allemagne",
+      "paysFabrication": "Allemagne",
+      "options": [
+        "Climatisation",
+        "Toit ouvrant panoramique",
+        "Sono Burmester",
+        "Sièges sport"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grkw74bbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grkw74bor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22grkw74bp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23grkw74bbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23grkw74bp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23grkw74bor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EP%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-21",
+      "marque": "Peugeot",
+      "modele": "3008",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 38500,
+      "annee": 2026,
+      "moteur": "PureTech 180ch",
+      "transmission": "Automatique EAT8",
+      "paysOrigine": "France",
+      "paysFabrication": "France",
+      "options": [
+        "Climatisation auto",
+        "i-Cockpit digital",
+        "Caméra 360°"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gq42e3jbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gq42e3jor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gq42e3jp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gq42e3jbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gq42e3jp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gq42e3jor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EP%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-22",
+      "marque": "Renault",
+      "modele": "Espace",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 44900,
+      "annee": 2026,
+      "moteur": "E-Tech Hybride 200ch",
+      "transmission": "Automatique multi-mode",
+      "paysOrigine": "France",
+      "paysFabrication": "France",
+      "options": [
+        "Climatisation 3 zones",
+        "Toit ouvrant",
+        "Écran 12\""
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gezx4mubg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gezx4muor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gezx4mup%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gezx4mubg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gezx4mup)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gezx4muor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3ER%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-23",
+      "marque": "Citroën",
+      "modele": "C5 Aircross",
+      "categorie": "poids-leger",
+      "etat": "Occasion",
+      "prix": 26900,
+      "annee": 2022,
+      "moteur": "PureTech 130ch",
+      "transmission": "Manuelle 6 rapports",
+      "paysOrigine": "France",
+      "paysFabrication": "France",
+      "options": [
+        "Climatisation",
+        "Suspensions à butées hydrauliques",
+        "Caméra de recul"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gxopzx1bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gxopzx1or%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gxopzx1p%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gxopzx1bg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gxopzx1p)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gxopzx1or)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EC%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-24",
+      "marque": "Fiat",
+      "modele": "500e",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 29900,
+      "annee": 2026,
+      "moteur": "Électrique 118ch",
+      "transmission": "Automatique",
+      "paysOrigine": "Italie",
+      "paysFabrication": "Italie",
+      "options": [
+        "Climatisation",
+        "Toit ouvrant",
+        "Écran tactile 10\""
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gnslgqubg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gnslgquor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gnslgqup%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gnslgqubg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gnslgqup)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gnslgquor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EF%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-25",
+      "marque": "Alfa Romeo",
+      "modele": "Stelvio",
+      "categorie": "poids-leger",
+      "etat": "Occasion",
+      "prix": 42000,
+      "annee": 2022,
+      "moteur": "2.0L Turbo 280ch",
+      "transmission": "Automatique 8 rapports",
+      "paysOrigine": "Italie",
+      "paysFabrication": "Italie",
+      "options": [
+        "Climatisation bi-zone",
+        "Sièges sport cuir",
+        "Écran 8.8\""
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g89jr8dbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g89jr8dor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22g89jr8dp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g89jr8dbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g89jr8dp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23g89jr8dor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EAR%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-26",
+      "marque": "Volvo Cars",
+      "modele": "XC90",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 79500,
+      "annee": 2026,
+      "moteur": "Hybride rechargeable 455ch",
+      "transmission": "Automatique 8 rapports",
+      "paysOrigine": "Suède",
+      "paysFabrication": "Suède",
+      "options": [
+        "Climatisation 4 zones",
+        "Toit ouvrant",
+        "Écran vertical 9\""
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gyyytjvbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gyyytjvor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gyyytjvp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gyyytjvbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gyyytjvp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gyyytjvor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EVC%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-27",
+      "marque": "Ford",
+      "modele": "F-150",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 52000,
+      "annee": 2026,
+      "moteur": "V6 EcoBoost 400ch",
+      "transmission": "Automatique 10 rapports",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation",
+        "Écran 12\"",
+        "Hayon motorisé"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gkjohh2bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gkjohh2or%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gkjohh2p%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gkjohh2bg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gkjohh2p)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gkjohh2or)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EF%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-28",
+      "marque": "Chevrolet",
+      "modele": "Tahoe",
+      "categorie": "poids-leger",
+      "etat": "Occasion",
+      "prix": 56000,
+      "annee": 2022,
+      "moteur": "V8 5.3L 355ch",
+      "transmission": "Automatique 10 rapports",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation tri-zone",
+        "Toit ouvrant",
+        "Écrans arrière"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gnxir9dbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gnxir9dor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gnxir9dp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gnxir9dbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gnxir9dp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gnxir9dor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EC%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-29",
+      "marque": "GMC",
+      "modele": "Sierra Denali",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 64000,
+      "annee": 2026,
+      "moteur": "V8 6.2L 420ch",
+      "transmission": "Automatique 10 rapports",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation",
+        "Suspension pilotée",
+        "Écran 13.4\""
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22goxgiqybg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22goxgiqyor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22goxgiqyp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23goxgiqybg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23goxgiqyp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23goxgiqyor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EG%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-30",
+      "marque": "RAM",
+      "modele": "1500 Laramie",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 58500,
+      "annee": 2026,
+      "moteur": "V8 Hemi 395ch",
+      "transmission": "Automatique 8 rapports",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation",
+        "Suspension pneumatique",
+        "Écran 12\""
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22ga1nfpgbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22ga1nfpgor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22ga1nfpgp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23ga1nfpgbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23ga1nfpgp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23ga1nfpgor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3ER%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-31",
+      "marque": "Jeep",
+      "modele": "Grand Cherokee",
+      "categorie": "poids-leger",
+      "etat": "Occasion",
+      "prix": 48000,
+      "annee": 2023,
+      "moteur": "V6 3.6L 290ch",
+      "transmission": "Automatique 8 rapports",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation",
+        "Toit ouvrant",
+        "4x4 Quadra-Trac"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22ge62d3bbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22ge62d3bor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22ge62d3bp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23ge62d3bbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23ge62d3bp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23ge62d3bor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EJ%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-32",
+      "marque": "Tesla",
+      "modele": "Model X",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 99000,
+      "annee": 2026,
+      "moteur": "Électrique bi-moteur 670ch",
+      "transmission": "Automatique direct",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation biozone HEPA",
+        "Portes Falcon Wing",
+        "Autopilot",
+        "Écran 17\""
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gaedtbwbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gaedtbwor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gaedtbwp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gaedtbwbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gaedtbwp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gaedtbwor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3ET%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-33",
+      "marque": "Cadillac",
+      "modele": "Escalade",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 108000,
+      "annee": 2026,
+      "moteur": "V8 6.2L 420ch",
+      "transmission": "Automatique 10 rapports",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation quadri-zone",
+        "Écran incurvé 38\"",
+        "Sièges massants"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gjmvozwbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gjmvozwor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gjmvozwp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gjmvozwbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gjmvozwp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gjmvozwor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EC%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-34",
+      "marque": "Land Rover",
+      "modele": "Range Rover",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 132000,
+      "annee": 2026,
+      "moteur": "V8 4.4L 530ch",
+      "transmission": "Automatique 8 rapports",
+      "paysOrigine": "Royaume-Uni",
+      "paysFabrication": "Royaume-Uni",
+      "options": [
+        "Climatisation quatre zones",
+        "Toit panoramique",
+        "Suspension pneumatique"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grn436vbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grn436vor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22grn436vp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23grn436vbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23grn436vp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23grn436vor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3ELR%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-35",
+      "marque": "Jaguar",
+      "modele": "F-Pace",
+      "categorie": "poids-leger",
+      "etat": "Occasion",
+      "prix": 58000,
+      "annee": 2023,
+      "moteur": "6 cyl. 300ch",
+      "transmission": "Automatique 8 rapports",
+      "paysOrigine": "Royaume-Uni",
+      "paysFabrication": "Royaume-Uni",
+      "options": [
+        "Climatisation",
+        "Toit ouvrant",
+        "Sono Meridian"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gnclhb0bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gnclhb0or%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gnclhb0p%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gnclhb0bg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gnclhb0p)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gnclhb0or)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EJ%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-36",
+      "marque": "MINI",
+      "modele": "Countryman",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 36500,
+      "annee": 2026,
+      "moteur": "Turbo 3 cyl. 170ch",
+      "transmission": "Automatique 7 rapports",
+      "paysOrigine": "Royaume-Uni",
+      "paysFabrication": "Pays-Bas",
+      "options": [
+        "Climatisation",
+        "Toit ouvrant",
+        "Écran circulaire OLED"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grf3je7bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22grf3je7or%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22grf3je7p%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23grf3je7bg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23grf3je7p)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23grf3je7or)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EM%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-37",
+      "marque": "Bentley",
+      "modele": "Continental GT",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 225000,
+      "annee": 2026,
+      "moteur": "W12 659ch",
+      "transmission": "Automatique double embrayage",
+      "paysOrigine": "Royaume-Uni",
+      "paysFabrication": "Royaume-Uni",
+      "options": [
+        "Climatisation 4 zones",
+        "Sièges massants",
+        "Sono Naim"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gzbdax6bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gzbdax6or%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gzbdax6p%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gzbdax6bg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gzbdax6p)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gzbdax6or)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EB%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-38",
+      "marque": "Rolls-Royce",
+      "modele": "Cullinan",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 385000,
+      "annee": 2026,
+      "moteur": "V12 6.75L 571ch",
+      "transmission": "Automatique 8 rapports",
+      "paysOrigine": "Royaume-Uni",
+      "paysFabrication": "Royaume-Uni",
+      "options": [
+        "Climatisation silencieuse",
+        "Étoile lumineuse",
+        "Suspension magique"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g3bplf5bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g3bplf5or%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22g3bplf5p%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g3bplf5bg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g3bplf5p)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23g3bplf5or)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3ER%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-39",
+      "marque": "Aston Martin",
+      "modele": "DBX707",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 210000,
+      "annee": 2026,
+      "moteur": "V8 Twin-Turbo 707ch",
+      "transmission": "Automatique 9 rapports",
+      "paysOrigine": "Royaume-Uni",
+      "paysFabrication": "Royaume-Uni",
+      "options": [
+        "Climatisation",
+        "Sièges baquets",
+        "Sono Bowers & Wilkins"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gvf33s4bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gvf33s4or%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gvf33s4p%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gvf33s4bg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gvf33s4p)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gvf33s4or)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EAM%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-40",
+      "marque": "Toyota",
+      "modele": "Land Cruiser",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 72000,
+      "annee": 2026,
+      "moteur": "Turbo Diesel 3.3L 309ch",
+      "transmission": "Automatique 10 rapports",
+      "paysOrigine": "Japon",
+      "paysFabrication": "Japon",
+      "options": [
+        "Climatisation",
+        "4x4 Multi-Terrain",
+        "Écran 12.3\""
+      ],
+      "images": [
+        "toyota-landcruiser-1.jpg",
+        "toyota-landcruiser-2.jpg",
+        "toyota-landcruiser-3.jpg"
+      ]
+    },
+    {
+      "id": "veh-41",
+      "marque": "Honda",
+      "modele": "CR-V",
+      "categorie": "poids-leger",
+      "etat": "Occasion",
+      "prix": 31000,
+      "annee": 2023,
+      "moteur": "1.5L Turbo 190ch",
+      "transmission": "CVT automatique",
+      "paysOrigine": "Japon",
+      "paysFabrication": "Canada",
+      "options": [
+        "Climatisation",
+        "Toit ouvrant",
+        "Caméra 360°"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gwl14d6bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gwl14d6or%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gwl14d6p%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gwl14d6bg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gwl14d6p)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gwl14d6or)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EH%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-42",
+      "marque": "Nissan",
+      "modele": "Patrol",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 66500,
+      "annee": 2026,
+      "moteur": "V8 5.6L 400ch",
+      "transmission": "Automatique 7 rapports",
+      "paysOrigine": "Japon",
+      "paysFabrication": "Japon",
+      "options": [
+        "Climatisation tri-zone",
+        "Suspension hydraulique",
+        "Écrans arrière"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g483ddrbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g483ddror%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22g483ddrp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g483ddrbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g483ddrp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23g483ddror)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EN%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-43",
+      "marque": "Mazda",
+      "modele": "CX-90",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 49500,
+      "annee": 2026,
+      "moteur": "6 cyl. Turbo 340ch",
+      "transmission": "Automatique 8 rapports",
+      "paysOrigine": "Japon",
+      "paysFabrication": "Japon",
+      "options": [
+        "Climatisation",
+        "Toit ouvrant",
+        "Sono Bose"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gnkbcohbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gnkbcohor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gnkbcohp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gnkbcohbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gnkbcohp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gnkbcohor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EM%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-44",
+      "marque": "Mitsubishi",
+      "modele": "Pajero Sport",
+      "categorie": "poids-leger",
+      "etat": "Occasion",
+      "prix": 34000,
+      "annee": 2022,
+      "moteur": "Diesel 2.4L 181ch",
+      "transmission": "Automatique 8 rapports",
+      "paysOrigine": "Japon",
+      "paysFabrication": "Thaïlande",
+      "options": [
+        "Climatisation",
+        "4x4 Super Select",
+        "Caméra de recul"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gh1pbtgbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gh1pbtgor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gh1pbtgp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gh1pbtgbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gh1pbtgp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gh1pbtgor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EM%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-45",
+      "marque": "Subaru",
+      "modele": "Outback",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 37500,
+      "annee": 2026,
+      "moteur": "2.5L Boxer 182ch",
+      "transmission": "CVT Lineartronic",
+      "paysOrigine": "Japon",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation",
+        "Toit ouvrant",
+        "Symmetrical AWD"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22ghomdambg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22ghomdamor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22ghomdamp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23ghomdambg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23ghomdamp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23ghomdamor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3ES%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-46",
+      "marque": "Suzuki",
+      "modele": "Jimny",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 24500,
+      "annee": 2026,
+      "moteur": "1.5L 102ch",
+      "transmission": "Manuelle 5 rapports",
+      "paysOrigine": "Japon",
+      "paysFabrication": "Japon",
+      "options": [
+        "Climatisation",
+        "4x4 enclenchable",
+        "Barres de toit"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22ga7rsn4bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22ga7rsn4or%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22ga7rsn4p%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23ga7rsn4bg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23ga7rsn4p)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23ga7rsn4or)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3ES%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-47",
+      "marque": "Lexus",
+      "modele": "LX 600",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 108000,
+      "annee": 2026,
+      "moteur": "Twin-Turbo V6 415ch",
+      "transmission": "Automatique 10 rapports",
+      "paysOrigine": "Japon",
+      "paysFabrication": "Japon",
+      "options": [
+        "Climatisation quatre zones",
+        "Sièges massants",
+        "Sono Mark Levinson"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gp3iczpbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gp3iczpor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gp3iczpp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gp3iczpbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gp3iczpp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gp3iczpor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EL%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-48",
+      "marque": "Hyundai",
+      "modele": "Palisade",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 46500,
+      "annee": 2026,
+      "moteur": "V6 3.8L 295ch",
+      "transmission": "Automatique 8 rapports",
+      "paysOrigine": "Corée du Sud",
+      "paysFabrication": "Corée du Sud",
+      "options": [
+        "Climatisation tri-zone",
+        "Toit ouvrant",
+        "Écran 12.3\""
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gm2kwjhbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gm2kwjhor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gm2kwjhp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gm2kwjhbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gm2kwjhp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gm2kwjhor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EH%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-49",
+      "marque": "Kia",
+      "modele": "Telluride",
+      "categorie": "poids-leger",
+      "etat": "Occasion",
+      "prix": 38000,
+      "annee": 2023,
+      "moteur": "V6 3.8L 291ch",
+      "transmission": "Automatique 8 rapports",
+      "paysOrigine": "Corée du Sud",
+      "paysFabrication": "États-Unis",
+      "options": [
+        "Climatisation",
+        "Toit ouvrant",
+        "Caméra 360°"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g99wcyfbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g99wcyfor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22g99wcyfp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g99wcyfbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g99wcyfp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23g99wcyfor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EK%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-50",
+      "marque": "KG Mobility",
+      "modele": "Rexton",
+      "categorie": "poids-leger",
+      "etat": "Neuf",
+      "prix": 32500,
+      "annee": 2026,
+      "moteur": "Diesel 2.2L 202ch",
+      "transmission": "Automatique 8 rapports",
+      "paysOrigine": "Corée du Sud",
+      "paysFabrication": "Corée du Sud",
+      "options": [
+        "Climatisation",
+        "4x4 enclenchable",
+        "Écran 12.3\""
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gy7hr57bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gy7hr57or%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gy7hr57p%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gy7hr57bg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gy7hr57p)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6%2052l6-16a6%206%200%200%201%206-4h44a6%206%200%200%201%206%204l6%2016v14H6V52Z%20M6%2052h88%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M70%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gy7hr57or)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EKM%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-51",
+      "marque": "Mercedes-Benz",
+      "modele": "Sprinter Fourgon",
+      "categorie": "special",
+      "etat": "Neuf",
+      "prix": 42500,
+      "annee": 2026,
+      "moteur": "Diesel 2.0L 170ch",
+      "transmission": "Automatique 9G-Tronic",
+      "paysOrigine": "Allemagne",
+      "paysFabrication": "Allemagne",
+      "options": [
+        "Climatisation cabine",
+        "Caméra de recul",
+        "Séparation cargo"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gspm75ybg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gspm75yor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gspm75yp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gspm75ybg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gspm75yp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M14%2058V30l20-12%2020%2012v28%20M14%2044h40%20M58%2044h22v14H58Z%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M62%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gspm75yor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EM%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-52",
+      "marque": "Renault",
+      "modele": "Trafic Artisan",
+      "categorie": "special",
+      "etat": "Occasion",
+      "prix": 24500,
+      "annee": 2022,
+      "moteur": "Diesel 2.0L 150ch",
+      "transmission": "Manuelle 6 rapports",
+      "paysOrigine": "France",
+      "paysFabrication": "France",
+      "options": [
+        "Climatisation",
+        "Aménagement atelier mobile"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22go18t2ibg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22go18t2ior%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22go18t2ip%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23go18t2ibg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23go18t2ip)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M14%2058V30l20-12%2020%2012v28%20M14%2044h40%20M58%2044h22v14H58Z%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M62%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23go18t2ior)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3ER%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-53",
+      "marque": "Volkswagen",
+      "modele": "Transporter",
+      "categorie": "special",
+      "etat": "Neuf",
+      "prix": 39500,
+      "annee": 2026,
+      "moteur": "Diesel 2.0L 150ch",
+      "transmission": "Automatique DSG",
+      "paysOrigine": "Allemagne",
+      "paysFabrication": "Allemagne",
+      "options": [
+        "Climatisation",
+        "Rangements intégrés"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gnlj1bxbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gnlj1bxor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gnlj1bxp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gnlj1bxbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gnlj1bxp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M14%2058V30l20-12%2020%2012v28%20M14%2044h40%20M58%2044h22v14H58Z%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M62%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gnlj1bxor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EV%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-54",
+      "marque": "John Deere",
+      "modele": "8R 410 Tracteur",
+      "categorie": "special",
+      "etat": "Neuf",
+      "prix": 285000,
+      "annee": 2026,
+      "moteur": "Diesel 9.0L 410ch",
+      "transmission": "Powershift automatique",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "Allemagne",
+      "options": [
+        "Cabine climatisée",
+        "Guidage GPS",
+        "Suspension cabine"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gvf71gqbg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22gvf71gqor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22gvf71gqp%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gvf71gqbg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23gvf71gqp)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M14%2058V30l20-12%2020%2012v28%20M14%2044h40%20M58%2044h22v14H58Z%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M62%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23gvf71gqor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EJD%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-55",
+      "marque": "Caterpillar",
+      "modele": "950 GC Chargeuse",
+      "categorie": "special",
+      "etat": "Occasion",
+      "prix": 165000,
+      "annee": 2021,
+      "moteur": "Diesel Cat C7.1 173ch",
+      "transmission": "Automatique",
+      "paysOrigine": "États-Unis",
+      "paysFabrication": "France",
+      "options": [
+        "Cabine climatisée",
+        "Caméra périphérique",
+        "Godet haute capacité"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g2rtp00bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g2rtp00or%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22g2rtp00p%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g2rtp00bg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23g2rtp00p)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M14%2058V30l20-12%2020%2012v28%20M14%2044h40%20M58%2044h22v14H58Z%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M62%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23g2rtp00or)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EC%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-56",
+      "marque": "Komatsu",
+      "modele": "PC210 Pelle",
+      "categorie": "special",
+      "etat": "Occasion",
+      "prix": 142000,
+      "annee": 2021,
+      "moteur": "Diesel 4 cyl. 165ch",
+      "transmission": "Hydrostatique",
+      "paysOrigine": "Japon",
+      "paysFabrication": "Japon",
+      "options": [
+        "Cabine climatisée",
+        "Système anti-vol GPS"
+      ],
+      "images": [
+        "data:image/svg+xml;utf8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22goaoptubg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2314161a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231b1d22%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22goaoptuor%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f4d97a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%238a6c14%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3Cpattern%20id%3D%22goaoptup%22%20width%3D%2240%22%20height%3D%2270%22%20patternUnits%3D%22userSpaceOnUse%22%20patternTransform%3D%22rotate(20)%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200%20L20%2010%20L40%200%20M0%2070%20L20%2060%20L40%2070%22%20stroke%3D%22%23c9a227%22%20stroke-width%3D%220.6%22%20fill%3D%22none%22%20opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fpattern%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23goaoptubg)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22url(%23goaoptup)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22none%22%20stroke%3D%22%232a2c33%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(150%2C95)%20scale(2.6)%22%20opacity%3D%220.92%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M14%2058V30l20-12%2020%2012v28%20M14%2044h40%20M58%2044h22v14H58Z%20M22%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%20M62%2066a6%206%200%201%200%2012%200%206%206%200%200%200-12%200%22%20fill%3D%22none%22%20stroke%3D%22url(%23goaoptuor)%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22215%22%20text-anchor%3D%22middle%22%20font-family%3D%22Jost%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%226%22%20fill%3D%22%23e8ce7b%22%3EK%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22200%22%20y%3D%22232%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%228.5%22%20letter-spacing%3D%223%22%20fill%3D%22%236d7280%22%3EVISUEL%20EN%20ATTENTE%20%E2%80%94%20PHOTO%20%C3%80%20VENIR%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": "veh-57",
+      "marque": "IVECO",
+      "modele": "Trakker AD380T45",
+      "categorie": "gros-porteur",
+      "etat": "Occasion",
+      "prix": 79500,
+      "annee": 2021,
+      "moteur": "Diesel Cursor 13L 450ch",
+      "transmission": "Automatisée ZF",
+      "paysOrigine": "Italie",
+      "paysFabrication": "Italie",
+      "options": [
+        "Cabine climatisée",
+        "4x4/6x4 tout-terrain",
+        "Benne basculante hydraulique",
+        "Grue auxiliaire (version chantier)"
+      ],
+      "images": [
+        "iveco-trakker-1.jpg",
+        "iveco-trakker-3.jpg",
+        "iveco-trakker-4.jpg",
+        "iveco-trakker-5.jpg",
+        "iveco-trakker-7.jpg",
+        "iveco-trakker-2.jpg",
+        "iveco-trakker-6.jpg"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-58",
+      "titre": "Lavage Haute Pression Châssis & Moteur",
+      "categorie": "gros-porteur",
+      "icone": "ic-camion",
+      "description": "Lavage haute pression (250 à 300 bars) du châssis, des essieux et du compartiment moteur pour éliminer boue, sel de déneigement et résidus routiers en profondeur.",
+      "bienfaits": [
+        "Image de marque valorisée",
+        "Longévité mécanique (anti-sel / anti-boue)",
+        "Sécurité & visibilité renforcées"
+      ],
+      "materiel": [
+        "Nettoyeur thermique 300 bars",
+        "Décontaminant ferreux",
+        "Dégraissant alcalin professionnel"
+      ],
+      "tarifMin": 180,
+      "unite": "/ véhicule",
+      "images": []
+    },
+    {
+      "id": "srv-59",
+      "titre": "Dégraissage Lourd",
+      "categorie": "gros-porteur",
+      "icone": "ic-spray",
+      "description": "Traitement dégraissant intensif pour bennes, plateaux et zones de charge exposées aux hydrocarbures et graisses industrielles.",
+      "bienfaits": [
+        "Image de marque valorisée",
+        "Longévité mécanique (anti-sel / anti-boue)",
+        "Sécurité & visibilité renforcées"
+      ],
+      "materiel": [
+        "Canon à mousse industriel",
+        "Nettoyeur électrique",
+        "Brosses longue portée"
+      ],
+      "tarifMin": 220,
+      "unite": "/ véhicule",
+      "images": []
+    },
+    {
+      "id": "srv-60",
+      "titre": "Décontamination Complète Poids Lourd",
+      "categorie": "gros-porteur",
+      "icone": "ic-polish",
+      "description": "Décontamination ferreuse et minérale de la carrosserie et des jantes, pour un véhicule assaini en profondeur avant traitement de protection.",
+      "bienfaits": [
+        "Image de marque valorisée",
+        "Longévité mécanique (anti-sel / anti-boue)",
+        "Sécurité & visibilité renforcées"
+      ],
+      "materiel": [
+        "Décontaminants ferreux",
+        "Aspirateur eau/poussière",
+        "Microfibres High GSM >800g/m²"
+      ],
+      "tarifMin": 260,
+      "unite": "/ véhicule",
+      "images": []
+    },
+    {
+      "id": "srv-61",
+      "titre": "Nettoyage Injecteur/Extracteur — Sièges & Tissus",
+      "categorie": "poids-leger",
+      "icone": "ic-spray",
+      "description": "Shampouinage en profondeur des sièges, moquettes et tissus par injecteur/extracteur professionnel, pour un habitacle assaini et comme neuf.",
+      "bienfaits": [
+        "Habitacle assaini en profondeur",
+        "Élimination des odeurs incrustées",
+        "Confort et hygiène retrouvés"
+      ],
+      "materiel": [
+        "Injecteur/extracteur professionnel",
+        "Shampoing hydrophobe",
+        "Aspirateur eau/poussière"
+      ],
+      "tarifMin": 65,
+      "unite": "/ véhicule",
+      "images": []
+    },
+    {
+      "id": "srv-62",
+      "titre": "Traitement Tornador — Précision Habitacle",
+      "categorie": "poids-leger",
+      "icone": "ic-spray",
+      "description": "Nettoyage à air comprimé des aérations, contre-portes, coutures et recoins inaccessibles, pour un habitacle traité dans les moindres détails.",
+      "bienfaits": [
+        "Recoins inaccessibles nettoyés",
+        "Finition détaillée",
+        "Habitacle assaini en profondeur"
+      ],
+      "materiel": [
+        "Pistolet Tornador pneumatique",
+        "Brosses microfibres souples",
+        "Produit multi-surfaces dégraissant"
+      ],
+      "tarifMin": 45,
+      "unite": "/ véhicule",
+      "images": []
+    },
+    {
+      "id": "srv-63",
+      "titre": "Polissage Carrosserie — Rotative & Orbitale",
+      "categorie": "poids-leger",
+      "icone": "ic-polish",
+      "description": "Correction machine à la polisseuse rotative et orbitale pour effacer les micro-rayures et hologrammes, et restituer une brillance miroir.",
+      "bienfaits": [
+        "Suppression des micro-rayures",
+        "Brillance miroir restituée",
+        "Valeur de revente préservée"
+      ],
+      "materiel": [
+        "Polisseuse rotative & orbitale",
+        "Pads de polissage multi-grains",
+        "Pâtes abrasives professionnelles"
+      ],
+      "tarifMin": 150,
+      "unite": "/ véhicule",
+      "images": []
+    },
+    {
+      "id": "srv-64",
+      "titre": "Protection Cire & Céramique",
+      "categorie": "poids-leger",
+      "icone": "ic-polish",
+      "description": "Application d'une protection cire premium ou d'un revêtement céramique longue durée, pour un effet hydrophobe et une brillance prolongée.",
+      "bienfaits": [
+        "Effet hydrophobe longue durée",
+        "Brillance prolongée",
+        "Protection contre les UV et intempéries"
+      ],
+      "materiel": [
+        "Cire carnauba premium",
+        "Revêtement céramique 9H",
+        "Microfibres High GSM >800g/m²"
+      ],
+      "tarifMin": 190,
+      "unite": "/ véhicule",
+      "images": []
+    },
+    {
+      "id": "srv-65",
+      "titre": "Purification Ozone Anti-Odeurs",
+      "categorie": "poids-leger",
+      "icone": "ic-ozone",
+      "description": "Diffusion d'ozone anti-bactérien qui neutralise les odeurs tenaces (tabac, animaux, humidité) et assainit l'ensemble de l'habitacle.",
+      "bienfaits": [
+        "Élimination des odeurs tenaces",
+        "Action antibactérienne",
+        "Air intérieur assaini"
+      ],
+      "materiel": [
+        "Générateur d'ozone professionnel",
+        "Désinfectant antibactérien habitacle"
+      ],
+      "tarifMin": 55,
+      "unite": "/ véhicule",
+      "images": []
+    },
+    {
+      "id": "srv-66",
+      "titre": "Nettoyage Jantes & Brosses Nylon",
+      "categorie": "poids-leger",
+      "icone": "ic-polish",
+      "description": "Décontamination des jantes avec des brosses nylon délicates spécifiques pour ne pas endommager les finitions, associée à un décontaminant ferreux.",
+      "bienfaits": [
+        "Finitions préservées",
+        "Décontamination ferreuse complète",
+        "Éclat retrouvé des jantes"
+      ],
+      "materiel": [
+        "Brosses jantes nylon",
+        "Décontaminant ferreux",
+        "Canon à mousse"
+      ],
+      "tarifMin": 35,
+      "unite": "/ véhicule",
+      "images": []
+    }
+  ]
+}

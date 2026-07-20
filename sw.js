@@ -4,7 +4,7 @@
    Stale-While-Revalidate pour un fonctionnement 100% hors-ligne.
    ========================================================================== */
 
-const VERSION_CACHE = 'zakari-gruppe-v1.3.0';
+const VERSION_CACHE = 'zakari-gruppe-v2.0.0';
 const CACHE_STATIQUE = `${VERSION_CACHE}-statique`;
 const CACHE_DYNAMIQUE = `${VERSION_CACHE}-dynamique`;
 
@@ -16,51 +16,52 @@ const RESSOURCES_APP_SHELL = [
   './styles.css',
   './app.js',
   './manifest.json',
-  './icons/icon-72.png',
-  './icons/icon-96.png',
-  './icons/icon-128.png',
-  './icons/icon-144.png',
-  './icons/icon-152.png',
-  './icons/icon-180.png',
-  './icons/icon-192.png',
-  './icons/icon-384.png',
-  './icons/icon-512.png',
-  './icons/icon-maskable-512.png',
-  './images/vehicules/iveco-trakker-1.jpg',
-  './images/vehicules/iveco-trakker-2.jpg',
-  './images/vehicules/iveco-trakker-3.jpg',
-  './images/vehicules/iveco-trakker-4.jpg',
-  './images/vehicules/iveco-trakker-5.jpg',
-  './images/vehicules/iveco-trakker-6.jpg',
-  './images/vehicules/iveco-trakker-7.jpg',
-  './images/vehicules/iveco-sway-1.jpg',
-  './images/vehicules/iveco-sway-2.jpg',
-  './images/vehicules/iveco-sway-3.jpg',
-  './images/vehicules/daf-xf-1.jpg',
-  './images/vehicules/daf-xf-2.jpg',
-  './images/vehicules/daf-xf-3.jpg',
-  './images/vehicules/daf-xf-4.jpg',
-  './images/vehicules/daf-xf-5.jpg',
-  './images/vehicules/daf-xf-6.jpg',
-  './images/vehicules/scania-r660-1.jpg',
-  './images/vehicules/scania-r660-2.jpg',
-  './images/vehicules/man-tgx-1.jpg',
-  './images/vehicules/renault-thigh-1.jpg',
-  './images/vehicules/scania-lineup-1.jpg',
-  './images/vehicules/scania-r660-3.jpg',
-  './images/vehicules/scania-r660-4.jpg',
-  './images/vehicules/scania-r660-5.jpg',
-  './images/vehicules/toyota-landcruiser-1.jpg',
-  './images/vehicules/toyota-landcruiser-2.jpg',
-  './images/vehicules/toyota-landcruiser-3.jpg',
-  './images/vehicules/toyota-hilux-1.jpg',
-  './images/vehicules/toyota-hilux-2.jpg',
-  './images/vehicules/toyota-hilux-3.jpg',
-  './images/vehicules/ford-ranger-1.jpg',
-  './images/vehicules/ford-ranger-2.jpg',
-  './images/vehicules/ford-ranger-3.jpg',
-  './images/vehicules/ford-ranger-4.jpg',
-  './images/vehicules/ford-ranger-5.jpg'
+  './data.json',
+  './icon-72.png',
+  './icon-96.png',
+  './icon-128.png',
+  './icon-144.png',
+  './icon-152.png',
+  './icon-180.png',
+  './icon-192.png',
+  './icon-384.png',
+  './icon-512.png',
+  './icon-maskable-512.png',
+  './iveco-trakker-1.jpg',
+  './iveco-trakker-2.jpg',
+  './iveco-trakker-3.jpg',
+  './iveco-trakker-4.jpg',
+  './iveco-trakker-5.jpg',
+  './iveco-trakker-6.jpg',
+  './iveco-trakker-7.jpg',
+  './iveco-sway-1.jpg',
+  './iveco-sway-2.jpg',
+  './iveco-sway-3.jpg',
+  './daf-xf-1.jpg',
+  './daf-xf-2.jpg',
+  './daf-xf-3.jpg',
+  './daf-xf-4.jpg',
+  './daf-xf-5.jpg',
+  './daf-xf-6.jpg',
+  './scania-r660-1.jpg',
+  './scania-r660-2.jpg',
+  './man-tgx-1.jpg',
+  './renault-thigh-1.jpg',
+  './scania-lineup-1.jpg',
+  './scania-r660-3.jpg',
+  './scania-r660-4.jpg',
+  './scania-r660-5.jpg',
+  './toyota-landcruiser-1.jpg',
+  './toyota-landcruiser-2.jpg',
+  './toyota-landcruiser-3.jpg',
+  './toyota-hilux-1.jpg',
+  './toyota-hilux-2.jpg',
+  './toyota-hilux-3.jpg',
+  './ford-ranger-1.jpg',
+  './ford-ranger-2.jpg',
+  './ford-ranger-3.jpg',
+  './ford-ranger-4.jpg',
+  './ford-ranger-5.jpg'
 ];
 
 /* ---------------------- INSTALLATION ---------------------- */
@@ -115,15 +116,24 @@ function nouvelleReponseHorsLigne(){
 self.addEventListener('fetch', (evenement) => {
   const { request } = evenement;
 
-  // On ignore les requêtes non-GET (ex: envoi vers Google Apps Script) : elles doivent aller au réseau directement.
+  // On ignore les requêtes non-GET : elles doivent aller au réseau directement.
   if (request.method !== 'GET') return;
 
   const url = new URL(request.url);
 
-  // Les appels à l'API Google (synchronisation du catalogue) ne sont jamais mis en cache :
-  // on privilégie toujours le réseau, avec repli sur le LocalStorage géré côté app.js.
-  if (url.hostname.includes('google') || url.hostname.includes('script.google.com')) {
-    evenement.respondWith(fetch(request).catch(() => nouvelleReponseHorsLigne()));
+  // data.json (catalogue publié par l'Accès Pro) : on tente TOUJOURS le réseau en premier
+  // pour afficher la dernière version dès qu'elle est disponible, avec repli sur le cache hors-ligne.
+  if (url.pathname.endsWith('/data.json') || url.pathname.endsWith('data.json')) {
+    evenement.respondWith(
+      fetch(request)
+        .then((reponseReseau) => {
+          if (reponseReseau && reponseReseau.status === 200) {
+            caches.open(CACHE_DYNAMIQUE).then((cache) => cache.put(request, reponseReseau.clone()));
+          }
+          return reponseReseau;
+        })
+        .catch(() => caches.match(request).then((r) => r || nouvelleReponseHorsLigne()))
+    );
     return;
   }
 

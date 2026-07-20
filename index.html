@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#0a0b0d">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230a0b0d'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='%23c9a227'%3E★%3C/text%3E%3C/svg%3E">
-<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -111,7 +111,7 @@
   <div class="hero-lueur" aria-hidden="true"></div>
   <svg class="logo-hero" viewBox="0 0 200 200"><use href="#logo-aigle" class="plume"/></svg>
   <div class="hero-banniere-flotte">
-    <img src="images/vehicules/scania-lineup-1.jpg" alt="Flotte de camions ZAKARI GRUPPE alignés">
+    <img src="scania-lineup-1.jpg" alt="Flotte de camions ZAKARI GRUPPE alignés">
   </div>
   <p class="eyebrow" style="justify-content:center" data-i18n="hero_eyebrow">Depuis le Bénin, vers l'excellence automobile</p>
   <h1 data-i18n-html="hero_titre">L'exigence <em>ZAKARI</em><br>a quatre roues.</h1>
@@ -347,7 +347,17 @@
     </div>
     <button class="btn btn-or btn-petit" id="btnAjouterElement"><svg width="14" height="14" viewBox="0 0 24 24"><use href="#ic-plus"/></svg>Ajouter un élément</button>
     <div style="overflow-x:auto"><table class="table-admin"><thead id="enteteTableAdmin"></thead><tbody id="corpsTableAdmin"></tbody></table></div>
-    <div class="statut-sync"><span class="point-sync" id="pointSync"></span><span id="texteSync">Synchronisation locale (LocalStorage)</span></div>
+
+    <div class="bloc-publication-json">
+      <p class="eyebrow" style="margin-bottom:.6rem">Publier les modifications</p>
+      <p class="note-champ" style="margin:0 0 .9rem">1) Modifiez le catalogue ci-dessus. 2) Téléchargez le fichier <b>data.json</b>. 3) Téléversez-le sur GitHub à la racine du site (à côté d'index.html), en écrasant l'ancien. Tout le monde verra la mise à jour au prochain chargement — sans toucher au code.</p>
+      <div style="display:flex;gap:.6rem;flex-wrap:wrap">
+        <button class="btn btn-or btn-petit" id="btnExporterJSON"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v13m0 0l-5-5m5 5l5-5M4 21h16"/></svg>Télécharger le JSON à publier</button>
+        <button class="btn btn-fantome btn-petit" id="btnImporterJSON"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21V8m0 0l-5 5m5-5l5 5M4 3h16"/></svg>Importer un fichier JSON</button>
+        <input type="file" id="inputImporterJSON" accept="application/json" style="display:none">
+      </div>
+      <div class="statut-sync"><span class="point-sync" id="pointSync"></span><span id="texteSync">Chargement du catalogue…</span></div>
+    </div>
   </div>
 </div>
 

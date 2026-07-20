@@ -1,7 +1,8 @@
 /* ==========================================================================
    ZAKARI GRUPPE — app.js
-   Logique SPA : catalogue, filtres, PWA, panneau Accès Pro, synchronisation
-   hybride vers Google Sheets (Google Apps Script) avec repli LocalStorage.
+   Logique SPA : catalogue, filtres, PWA, panneau Accès Pro, et publication du
+   catalogue par simple fichier data.json (téléchargé puis téléversé sur GitHub) —
+   aucun serveur, aucune base de données, aucun Google Apps Script.
    ========================================================================== */
 
 'use strict';
@@ -12,8 +13,9 @@
 const CONFIG = {
   // Mot de passe local de l'espace "Accès Pro" (à changer avant mise en ligne)
   MOT_DE_PASSE_ADMIN: 'ZakariGruppe2026',
-  // URL de votre Google Apps Script déployé en Web App (voir instructions en bas de fichier)
-  URL_APPS_SCRIPT: 'https://script.google.com/macros/s/REMPLACER_PAR_VOTRE_ID_DE_DEPLOIEMENT/exec',
+  // Fichier de catalogue publié : après modification dans l'Accès Pro, on télécharge ce fichier
+  // et on le téléverse sur GitHub (à la racine, à côté d'index.html) pour publier la mise à jour à tout le monde.
+  URL_DONNEES: './data.json',
   CLES_STOCKAGE: {
     vehicules: 'zakari_vehicules', services: 'zakari_services', session: 'zakari_session_pro',
     langue: 'zakari_langue', devise: 'zakari_devise', theme: 'zakari_theme'
@@ -156,29 +158,29 @@ const VEHICULES_INITIAUX = [
    -------------------------------------------------------------------- */
 const PHOTOS_REELLES = {
   'IVECO Trakker AD380T45': [
-    'images/vehicules/iveco-trakker-1.jpg','images/vehicules/iveco-trakker-3.jpg','images/vehicules/iveco-trakker-4.jpg',
-    'images/vehicules/iveco-trakker-5.jpg','images/vehicules/iveco-trakker-7.jpg','images/vehicules/iveco-trakker-2.jpg',
-    'images/vehicules/iveco-trakker-6.jpg'
+    'iveco-trakker-1.jpg','iveco-trakker-3.jpg','iveco-trakker-4.jpg',
+    'iveco-trakker-5.jpg','iveco-trakker-7.jpg','iveco-trakker-2.jpg',
+    'iveco-trakker-6.jpg'
   ],
   'IVECO S-Way 570': [
-    'images/vehicules/iveco-sway-1.jpg','images/vehicules/iveco-sway-2.jpg','images/vehicules/iveco-sway-3.jpg'
+    'iveco-sway-1.jpg','iveco-sway-2.jpg','iveco-sway-3.jpg'
   ],
   'DAF Trucks XF 480': [
-    'images/vehicules/daf-xf-1.jpg','images/vehicules/daf-xf-4.jpg','images/vehicules/daf-xf-2.jpg',
-    'images/vehicules/daf-xf-5.jpg','images/vehicules/daf-xf-3.jpg','images/vehicules/daf-xf-6.jpg'
+    'daf-xf-1.jpg','daf-xf-4.jpg','daf-xf-2.jpg',
+    'daf-xf-5.jpg','daf-xf-3.jpg','daf-xf-6.jpg'
   ],
   'Scania R 660 V8': [
-    'images/vehicules/scania-lineup-1.jpg','images/vehicules/scania-r660-3.jpg','images/vehicules/scania-r660-4.jpg',
-    'images/vehicules/scania-r660-5.jpg','images/vehicules/scania-r660-1.jpg','images/vehicules/scania-r660-2.jpg'
+    'scania-lineup-1.jpg','scania-r660-3.jpg','scania-r660-4.jpg',
+    'scania-r660-5.jpg','scania-r660-1.jpg','scania-r660-2.jpg'
   ],
   'MAN Trucks TGX 18.510': [
-    'images/vehicules/man-tgx-1.jpg'
+    'man-tgx-1.jpg'
   ],
   'Renault Trucks T High 520': [
-    'images/vehicules/renault-thigh-1.jpg'
+    'renault-thigh-1.jpg'
   ],
   'Toyota Land Cruiser': [
-    'images/vehicules/toyota-landcruiser-1.jpg','images/vehicules/toyota-landcruiser-2.jpg','images/vehicules/toyota-landcruiser-3.jpg'
+    'toyota-landcruiser-1.jpg','toyota-landcruiser-2.jpg','toyota-landcruiser-3.jpg'
   ]
 };
 VEHICULES_INITIAUX.forEach(vehicule=>{
@@ -190,15 +192,15 @@ VEHICULES_INITIAUX.forEach(vehicule=>{
    2-ter. PANORAMA DÉFILANT DU HERO — toutes les photos réelles transmises
    -------------------------------------------------------------------- */
 const PANORAMA_IMAGES = [
-  'images/vehicules/scania-lineup-1.jpg','images/vehicules/scania-r660-3.jpg','images/vehicules/scania-r660-4.jpg','images/vehicules/scania-r660-5.jpg',
-  'images/vehicules/toyota-landcruiser-1.jpg','images/vehicules/toyota-landcruiser-2.jpg','images/vehicules/toyota-landcruiser-3.jpg',
-  'images/vehicules/ford-ranger-1.jpg','images/vehicules/ford-ranger-2.jpg','images/vehicules/ford-ranger-3.jpg','images/vehicules/ford-ranger-4.jpg','images/vehicules/ford-ranger-5.jpg',
-  'images/vehicules/toyota-hilux-1.jpg','images/vehicules/toyota-hilux-2.jpg','images/vehicules/toyota-hilux-3.jpg',
-  'images/vehicules/iveco-trakker-1.jpg','images/vehicules/iveco-trakker-2.jpg','images/vehicules/iveco-trakker-3.jpg','images/vehicules/iveco-trakker-4.jpg',
-  'images/vehicules/iveco-trakker-5.jpg','images/vehicules/iveco-trakker-6.jpg','images/vehicules/iveco-trakker-7.jpg',
-  'images/vehicules/iveco-sway-1.jpg','images/vehicules/iveco-sway-2.jpg','images/vehicules/iveco-sway-3.jpg',
-  'images/vehicules/daf-xf-1.jpg','images/vehicules/daf-xf-2.jpg','images/vehicules/daf-xf-3.jpg','images/vehicules/daf-xf-4.jpg','images/vehicules/daf-xf-5.jpg','images/vehicules/daf-xf-6.jpg',
-  'images/vehicules/man-tgx-1.jpg','images/vehicules/renault-thigh-1.jpg','images/vehicules/scania-r660-1.jpg','images/vehicules/scania-r660-2.jpg'
+  'scania-lineup-1.jpg','scania-r660-3.jpg','scania-r660-4.jpg','scania-r660-5.jpg',
+  'toyota-landcruiser-1.jpg','toyota-landcruiser-2.jpg','toyota-landcruiser-3.jpg',
+  'ford-ranger-1.jpg','ford-ranger-2.jpg','ford-ranger-3.jpg','ford-ranger-4.jpg','ford-ranger-5.jpg',
+  'toyota-hilux-1.jpg','toyota-hilux-2.jpg','toyota-hilux-3.jpg',
+  'iveco-trakker-1.jpg','iveco-trakker-2.jpg','iveco-trakker-3.jpg','iveco-trakker-4.jpg',
+  'iveco-trakker-5.jpg','iveco-trakker-6.jpg','iveco-trakker-7.jpg',
+  'iveco-sway-1.jpg','iveco-sway-2.jpg','iveco-sway-3.jpg',
+  'daf-xf-1.jpg','daf-xf-2.jpg','daf-xf-3.jpg','daf-xf-4.jpg','daf-xf-5.jpg','daf-xf-6.jpg',
+  'man-tgx-1.jpg','renault-thigh-1.jpg','scania-r660-1.jpg','scania-r660-2.jpg'
 ];
 function initialiserPanorama(){
   const piste = document.getElementById('panoramaPiste');
@@ -289,39 +291,62 @@ function sauvegarderTout(){
 }
 
 /* --------------------------------------------------------------------
-   5. SYNCHRONISATION DISTANTE (Google Sheets via Apps Script)
-   Squelette prêt à l'emploi : interroge l'URL Web App en arrière-plan.
-   En cas d'échec réseau, le catalogue local (LocalStorage) fait foi.
+   5. PUBLICATION PAR FICHIER JSON (sans serveur, sans Apps Script)
+   Fonctionnement :
+   1) Dans l'Accès Pro, on modifie le catalogue (véhicules/prestations).
+   2) On clique sur "Télécharger le JSON à publier" → un fichier data.json est généré.
+   3) On téléverse ce fichier sur GitHub, à la racine du site, à côté d'index.html
+      (en écrasant l'ancien data.json).
+   4) Au prochain chargement, TOUS les visiteurs récupèrent automatiquement
+      la nouvelle version du catalogue — aucune retouche de code nécessaire.
    -------------------------------------------------------------------- */
-async function synchroniserDepuisGoogleSheets(){
-  definirEtatSync('attente', 'Synchronisation en cours…');
+async function chargerDonneesPubliees(){
+  definirEtatSync('attente', 'Vérification du fichier data.json…');
   try{
-    const reponse = await fetch(CONFIG.URL_APPS_SCRIPT + '?action=lire', { method:'GET' });
-    if(!reponse.ok) throw new Error('Réponse réseau invalide');
+    const reponse = await fetch(CONFIG.URL_DONNEES, { cache:'no-cache' });
+    if(!reponse.ok) throw new Error('data.json introuvable');
     const donnees = await reponse.json();
-    if(donnees.vehicules){ vehicules = donnees.vehicules; }
-    if(donnees.services){ services = donnees.services; }
+    if(Array.isArray(donnees.vehicules) && donnees.vehicules.length){ vehicules = donnees.vehicules; }
+    if(Array.isArray(donnees.services) && donnees.services.length){ services = donnees.services; }
     sauvegarderTout();
-    definirEtatSync('ok', 'Catalogue synchronisé avec Google Sheets');
+    definirEtatSync('ok', donnees.misAJourLe ? `Catalogue publié le ${new Date(donnees.misAJourLe).toLocaleString('fr-FR')}` : 'Catalogue publié chargé (data.json)');
     rafraichirTout();
   }catch(erreur){
-    console.info('Synchronisation distante indisponible, catalogue local utilisé.', erreur.message);
-    definirEtatSync('local', 'Catalogue local (hors-ligne ou Apps Script non configuré)');
+    console.info('data.json indisponible pour le moment, catalogue local utilisé.', erreur.message);
+    definirEtatSync('local', 'data.json non trouvé — catalogue local (LocalStorage) utilisé');
   }
 }
-async function envoyerVersGoogleSheets(type, action, element){
-  try{
-    await fetch(CONFIG.URL_APPS_SCRIPT, {
-      method:'POST',
-      headers:{ 'Content-Type':'text/plain' }, // text/plain évite le pré-vol CORS avec Apps Script
-      body: JSON.stringify({ type, action, element })
-    });
-    definirEtatSync('ok', 'Modification envoyée à Google Sheets');
-  }catch(erreur){
-    console.info('Envoi Google Sheets impossible pour le moment ; conservé en local.', erreur.message);
-    definirEtatSync('local', 'Modification conservée en local (sera à resynchroniser)');
-  }
+
+/* Génère et télécharge le fichier data.json à téléverser sur GitHub */
+function exporterJSON(){
+  const sortie = { misAJourLe: new Date().toISOString(), vehicules, services };
+  const blob = new Blob([JSON.stringify(sortie, null, 2)], { type:'application/json' });
+  const url = URL.createObjectURL(blob);
+  const lien = document.createElement('a');
+  lien.href = url; lien.download = 'data.json';
+  document.body.appendChild(lien); lien.click(); lien.remove();
+  URL.revokeObjectURL(url);
+  afficherToast('data.json téléchargé — téléversez-le sur GitHub pour publier.');
 }
+
+/* Recharge un data.json choisi manuellement (utile pour reprendre l'édition sur un autre appareil) */
+function importerJSON(fichier){
+  const lecteur = new FileReader();
+  lecteur.onload = ()=>{
+    try{
+      const donnees = JSON.parse(lecteur.result);
+      if(!Array.isArray(donnees.vehicules) || !Array.isArray(donnees.services)) throw new Error('Format invalide');
+      vehicules = donnees.vehicules; services = donnees.services;
+      sauvegarderTout(); rafraichirTout(); rendreTableAdmin();
+      definirEtatSync('ok', 'Fichier JSON importé avec succès');
+      afficherToast('Catalogue importé depuis le fichier JSON.');
+    }catch(e){
+      afficherToast('Fichier JSON invalide.');
+    }
+  };
+  lecteur.readAsText(fichier);
+}
+
 function definirEtatSync(etat, texte){
   const point = document.getElementById('pointSync');
   const label = document.getElementById('texteSync');
@@ -677,7 +702,7 @@ document.getElementById('corpsTableAdmin').addEventListener('click', e=>{
     const v = vehicules.find(x=>x.id===supprV.dataset.supprVehicule);
     if(confirm(`Supprimer ${v.marque} ${v.modele} du catalogue ?`)){
       vehicules = vehicules.filter(x=>x.id!==v.id);
-      sauvegarderTout(); envoyerVersGoogleSheets('vehicule','supprimer',v);
+      sauvegarderTout();
       rendreTableAdmin(); rendreVehicules(); afficherToast('Véhicule supprimé.');
     }
   }
@@ -685,7 +710,7 @@ document.getElementById('corpsTableAdmin').addEventListener('click', e=>{
     const s = services.find(x=>x.id===supprS.dataset.supprService);
     if(confirm(`Supprimer la prestation « ${s.titre} » ?`)){
       services = services.filter(x=>x.id!==s.id);
-      sauvegarderTout(); envoyerVersGoogleSheets('service','supprimer',s);
+      sauvegarderTout();
       rendreTableAdmin(); rendreServices(); afficherToast('Prestation supprimée.');
     }
   }
@@ -693,6 +718,15 @@ document.getElementById('corpsTableAdmin').addEventListener('click', e=>{
 
 document.getElementById('btnAjouterElement').addEventListener('click', ()=>{
   ouvrirFormulaireEdition(ongletAdmin==='vehicules' ? 'vehicule' : 'service', null);
+});
+document.getElementById('btnExporterJSON').addEventListener('click', exporterJSON);
+document.getElementById('btnImporterJSON').addEventListener('click', ()=>{
+  document.getElementById('inputImporterJSON').click();
+});
+document.getElementById('inputImporterJSON').addEventListener('change', (e)=>{
+  const fichier = e.target.files[0];
+  if(fichier) importerJSON(fichier);
+  e.target.value = '';
 });
 
 /* Zone de gestion visuelle des images (jusqu'à 5, par URL ou import local en Base64) */
@@ -772,12 +806,10 @@ function ouvrirFormulaireEdition(type, element){
       donnees.images = imagesActuelles.length ? imagesActuelles : [genererPlaceholder(donnees.categorie, donnees.marque, donnees.modele)];
       if(element){
         Object.assign(element, donnees);
-        envoyerVersGoogleSheets('vehicule','modifier',element);
         afficherToast('Véhicule mis à jour.');
       } else {
         donnees.id = 'veh-' + (compteurId++);
         vehicules.unshift(donnees);
-        envoyerVersGoogleSheets('vehicule','ajouter',donnees);
         afficherToast('Véhicule ajouté au catalogue.');
       }
       sauvegarderTout(); rendreTableAdmin(); rendreVehicules(); peupleSelecteurs(); fermerModale('modaleEdition');
@@ -811,12 +843,10 @@ function ouvrirFormulaireEdition(type, element){
       donnees.icone = s.icone || 'ic-spray';
       if(element){
         Object.assign(element, donnees);
-        envoyerVersGoogleSheets('service','modifier',element);
         afficherToast('Prestation mise à jour.');
       } else {
         donnees.id = 'srv-' + (compteurId++);
         services.unshift(donnees);
-        envoyerVersGoogleSheets('service','ajouter',donnees);
         afficherToast('Prestation ajoutée.');
       }
       sauvegarderTout(); rendreTableAdmin(); rendreServices(); fermerModale('modaleEdition');
@@ -867,7 +897,7 @@ function afficherToast(texte){
 function majEtatReseau(){
   document.getElementById('bandeauHorsLigne').classList.toggle('visible', !navigator.onLine);
 }
-window.addEventListener('online', ()=>{ majEtatReseau(); synchroniserDepuisGoogleSheets(); });
+window.addEventListener('online', ()=>{ majEtatReseau(); chargerDonneesPubliees(); });
 window.addEventListener('offline', majEtatReseau);
 
 /* --------------------------------------------------------------------
@@ -1235,4 +1265,4 @@ appliquerLangue(langueActuelle);
 majEtatReseau();
 rafraichirTout();
 initialiserPanorama();
-synchroniserDepuisGoogleSheets();
+chargerDonneesPubliees();

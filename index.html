@@ -76,28 +76,28 @@
   <nav class="nav">
     <a href="#accueil" class="marque-nav">
       <svg class="logo-mini" viewBox="0 0 200 200"><use href="#logo-aigle"/></svg>
-      <span class="texte-marque">ZAKARI GRUPPE<span>VÉHICULES · DETAILING</span></span>
+      <span class="texte-marque">ZAKARI GRUPPE<span data-i18n="site_soustitre">VÉHICULES · DETAILING</span></span>
     </a>
     <ul class="liens-nav" id="liensNav">
       <li><a href="#accueil" data-i18n="nav_accueil">Accueil</a></li>
       <li><a href="#vehicules" data-i18n="nav_vehicules">Véhicules</a></li>
       <li><a href="#services" data-i18n="nav_services">Services</a></li>
       <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
-      <li class="selecteurs-globaux">
-        <div class="menu-deroulant" id="menuLangue">
-          <button class="bouton-select-perso" id="btnLangue" aria-haspopup="listbox"><span class="drapeau" id="drapeauActuel">🇫🇷</span><span id="codeLangueActuel">FR</span></button>
-          <div class="panneau-deroulant" id="panneauLangue" role="listbox"></div>
-        </div>
-        <div class="menu-deroulant" id="menuDevise">
-          <button class="bouton-select-perso" id="btnDevise" aria-haspopup="listbox"><span id="symboleDeviseActuelle">€</span><span id="codeDeviseActuelle">EUR</span></button>
-          <div class="panneau-deroulant" id="panneauDevise" role="listbox"></div>
-        </div>
-        <button class="bouton-theme" id="btnTheme" aria-label="Changer de thème">
-          <svg class="icone-soleil" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
-          <svg class="icone-lune" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
-        </button>
-      </li>
     </ul>
+    <div class="selecteurs-globaux">
+      <div class="menu-deroulant" id="menuLangue">
+        <button class="bouton-select-perso" id="btnLangue" type="button" aria-haspopup="listbox"><span class="drapeau" id="drapeauActuel">🇫🇷</span><span id="codeLangueActuel">FR</span></button>
+        <div class="panneau-deroulant" id="panneauLangue" role="listbox"></div>
+      </div>
+      <div class="menu-deroulant" id="menuDevise">
+        <button class="bouton-select-perso" id="btnDevise" type="button" aria-haspopup="listbox"><span id="symboleDeviseActuelle">€</span><span id="codeDeviseActuelle">EUR</span></button>
+        <div class="panneau-deroulant" id="panneauDevise" role="listbox"></div>
+      </div>
+      <button class="bouton-theme" id="btnTheme" type="button" aria-label="Changer de thème">
+        <svg class="icone-soleil" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+        <svg class="icone-lune" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
+      </button>
+    </div>
     <div class="actions-nav">
       <button class="btn btn-fantome btn-petit btn-installer" id="btnInstaller"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v13m0 0l-5-5m5 5l5-5M4 21h16"/></svg><span data-i18n="nav_installer">Installer l'app</span></button>
       <button class="burger" id="btnBurger" aria-label="Menu"><span></span></button>
@@ -155,23 +155,23 @@
           <svg viewBox="0 0 24 24"><use href="#ic-recherche"/></svg>
           <input type="text" id="rechercheVehicule" placeholder="Rechercher une marque, un modèle…" data-i18n-placeholder="recherche_placeholder">
         </div>
-        <select class="filtre-select" id="filtreMarque"><option value="tous">Toutes les marques</option></select>
+        <select class="filtre-select" id="filtreMarque"><option value="tous" data-i18n="filtre_toutes_marques">Toutes les marques</option></select>
         <select class="filtre-select" id="filtreEtat">
-          <option value="tous">Neuf &amp; Occasion</option>
-          <option value="Neuf">Neuf</option>
-          <option value="Occasion">Occasion</option>
+          <option value="tous" data-i18n="filtre_neuf_occasion">Neuf &amp; Occasion</option>
+          <option value="Neuf" data-i18n="etat_neuf">Neuf</option>
+          <option value="Occasion" data-i18n="etat_occasion">Occasion</option>
         </select>
-        <select class="filtre-select" id="filtreOrigine"><option value="tous">Toutes origines</option></select>
+        <select class="filtre-select" id="filtreOrigine"><option value="tous" data-i18n="filtre_toutes_origines">Toutes origines</option></select>
         <select class="filtre-select" id="filtreTri">
-          <option value="recent">Plus récents</option>
-          <option value="prix-asc">Prix croissant</option>
-          <option value="prix-desc">Prix décroissant</option>
+          <option value="recent" data-i18n="filtre_plus_recents">Plus récents</option>
+          <option value="prix-asc" data-i18n="filtre_prix_asc">Prix croissant</option>
+          <option value="prix-desc" data-i18n="filtre_prix_desc">Prix décroissant</option>
         </select>
       </div>
 
       <p class="compteur-resultats" id="compteurVehicules">— véhicules affichés</p>
       <div class="grille-vehicules" id="grilleVehicules"></div>
-      <div class="zone-plus"><button class="btn btn-fantome" id="btnPlusVehicules">Charger plus de véhicules</button></div>
+      <div class="zone-plus"><button class="btn btn-fantome" id="btnPlusVehicules" data-i18n="btn_charger_plus">Charger plus de véhicules</button></div>
     </div>
 
     <!-- ---- DOMAINE SERVICES ---- -->
@@ -211,31 +211,31 @@
       <div class="canaux-contact">
         <a class="canal canal-whatsapp" href="https://wa.me/4915210146536" target="_blank" rel="noopener">
           <span class="icone-canal"><svg viewBox="0 0 32 32"><use href="#ic-whatsapp"/></svg></span>
-          <span class="texte-canal"><b>WhatsApp — Allemagne</b><span>+49 1521 0146536</span></span>
+          <span class="texte-canal"><b data-i18n="canal_whatsapp_allemagne">WhatsApp — Allemagne</b><span>+49 1521 0146536</span></span>
           <span class="puce-live"></span>
         </a>
         <a class="canal canal-whatsapp" href="https://wa.me/2290196809106" target="_blank" rel="noopener">
           <span class="icone-canal"><svg viewBox="0 0 32 32"><use href="#ic-whatsapp"/></svg></span>
-          <span class="texte-canal"><b>WhatsApp — Bénin</b><span>+229 01 96 80 91 06</span></span>
+          <span class="texte-canal"><b data-i18n="canal_whatsapp_benin">WhatsApp — Bénin</b><span>+229 01 96 80 91 06</span></span>
           <span class="puce-live"></span>
         </a>
         <a class="canal canal-email" href="mailto:empiredonko@gmail.com">
           <span class="icone-canal"><svg viewBox="0 0 24 24"><use href="#ic-email"/></svg></span>
-          <span class="texte-canal"><b>Email — Bénin</b><span>empiredonko@gmail.com</span></span>
+          <span class="texte-canal"><b data-i18n="canal_email_benin">Email — Bénin</b><span>empiredonko@gmail.com</span></span>
         </a>
       </div>
       <form class="carte-formulaire" id="formulaireContact">
-        <div class="champ"><label>Nom complet</label><input type="text" required></div>
-        <div class="champ"><label>Votre demande</label>
+        <div class="champ"><label data-i18n="form_nom">Nom complet</label><input type="text" required></div>
+        <div class="champ"><label data-i18n="form_demande">Votre demande</label>
           <select>
-            <option>Achat d'un véhicule</option>
-            <option>Vente / reprise</option>
-            <option>Prestation de detailing</option>
-            <option>Autre demande</option>
+            <option data-i18n="form_option1">Achat d'un véhicule</option>
+            <option data-i18n="form_option2">Vente / reprise</option>
+            <option data-i18n="form_option3">Prestation de detailing</option>
+            <option data-i18n="form_option4">Autre demande</option>
           </select>
         </div>
-        <div class="champ"><label>Message</label><textarea placeholder="Décrivez votre besoin…" required></textarea></div>
-        <button type="submit" class="btn btn-or" style="width:100%">Envoyer sur WhatsApp</button>
+        <div class="champ"><label data-i18n="form_message">Message</label><textarea data-i18n-placeholder="form_message_placeholder" placeholder="Décrivez votre besoin…" required></textarea></div>
+        <button type="submit" class="btn btn-or" style="width:100%" data-i18n="form_envoyer">Envoyer sur WhatsApp</button>
       </form>
     </div>
   </div>
@@ -261,14 +261,14 @@
       <div>
         <h4 data-i18n="pied_boutique">Boutique partenaire</h4>
         <div class="bloc-cta-empire">
-          <p><b>Boutique officielle de scripts, codes sources et outils par EMPIRE CODE.</b></p>
-          <a class="btn btn-or btn-petit" href="https://empirecode.mychariow.co/" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24"><use href="#ic-boutique"/></svg>Visiter</a>
+          <p><b data-i18n="pied_boutique_desc">Boutique officielle de scripts, codes sources et outils par EMPIRE CODE.</b></p>
+          <a class="btn btn-or btn-petit" href="https://empirecode.mychariow.co/" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24"><use href="#ic-boutique"/></svg><span data-i18n="pied_visiter">Visiter</span></a>
         </div>
       </div>
     </div>
 
     <div class="bloc-confidentialite">
-      <p>« Une idée d'outil sur mesure, fonctionnant hors connexion, hors serveur, hors base de données, pour votre activité et votre confidentialité ? Écrivez-nous. Par : WhatsApp : +2290196809106, email : empiredonko@gmail.com. »</p>
+      <p data-i18n="confidentialite_texte">« Une idée d'outil sur mesure, fonctionnant hors connexion, hors serveur, hors base de données, pour votre activité et votre confidentialité ? Écrivez-nous. Par : WhatsApp : +2290196809106, email : empiredonko@gmail.com. »</p>
       <div class="mini-canaux">
         <a class="icone-canal canal-whatsapp" style="background:#25d366;color:#fff" href="https://wa.me/2290196809106" target="_blank" rel="noopener"><svg viewBox="0 0 32 32"><use href="#ic-whatsapp"/></svg></a>
         <a class="icone-canal" style="background:linear-gradient(135deg,#ea4335,#fbbc05 50%,#4285f4);color:#fff;animation:clignoter 2.4s ease-in-out infinite" href="mailto:empiredonko@gmail.com"><svg viewBox="0 0 24 24"><use href="#ic-email"/></svg></a>
@@ -276,8 +276,8 @@
     </div>
 
     <div class="bas-pied">
-      <span>© <span id="anneeCourante"></span> ZAKARI GRUPPE — Tous droits réservés.</span>
-      <span class="powered-by">Powered by <b>EMPIRE CODE</b></span>
+      <span>© <span id="anneeCourante"></span> ZAKARI GRUPPE — <span data-i18n="pied_droits">Tous droits réservés</span>.</span>
+      <span class="powered-by"><span data-i18n="pied_powered_by">Powered by</span> <b>EMPIRE CODE</b></span>
     </div>
   </div>
 </footer>

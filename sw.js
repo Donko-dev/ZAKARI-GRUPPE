@@ -4,7 +4,7 @@
    Stale-While-Revalidate pour un fonctionnement 100% hors-ligne.
    ========================================================================== */
 
-const VERSION_CACHE = 'zakari-gruppe-v1.1.0';
+const VERSION_CACHE = 'zakari-gruppe-v1.2.0';
 const CACHE_STATIQUE = `${VERSION_CACHE}-statique`;
 const CACHE_DYNAMIQUE = `${VERSION_CACHE}-dynamique`;
 
@@ -25,7 +25,27 @@ const RESSOURCES_APP_SHELL = [
   './icons/icon-192.png',
   './icons/icon-384.png',
   './icons/icon-512.png',
-  './icons/icon-maskable-512.png'
+  './icons/icon-maskable-512.png',
+  './images/vehicules/iveco-trakker-1.jpg',
+  './images/vehicules/iveco-trakker-2.jpg',
+  './images/vehicules/iveco-trakker-3.jpg',
+  './images/vehicules/iveco-trakker-4.jpg',
+  './images/vehicules/iveco-trakker-5.jpg',
+  './images/vehicules/iveco-trakker-6.jpg',
+  './images/vehicules/iveco-trakker-7.jpg',
+  './images/vehicules/iveco-sway-1.jpg',
+  './images/vehicules/iveco-sway-2.jpg',
+  './images/vehicules/iveco-sway-3.jpg',
+  './images/vehicules/daf-xf-1.jpg',
+  './images/vehicules/daf-xf-2.jpg',
+  './images/vehicules/daf-xf-3.jpg',
+  './images/vehicules/daf-xf-4.jpg',
+  './images/vehicules/daf-xf-5.jpg',
+  './images/vehicules/daf-xf-6.jpg',
+  './images/vehicules/scania-r660-1.jpg',
+  './images/vehicules/scania-r660-2.jpg',
+  './images/vehicules/man-tgx-1.jpg',
+  './images/vehicules/renault-thigh-1.jpg'
 ];
 
 /* ---------------------- INSTALLATION ---------------------- */

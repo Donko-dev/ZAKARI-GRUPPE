@@ -144,8 +144,43 @@ const VEHICULES_INITIAUX = [
   v('Volkswagen','Transporter','special','Neuf',39500,2026,'Diesel 2.0L 150ch','Automatique DSG','Allemagne','Allemagne',['Climatisation','Rangements intégrés']),
   v('John Deere','8R 410 Tracteur','special','Neuf',285000,2026,'Diesel 9.0L 410ch','Powershift automatique','États-Unis','Allemagne',['Cabine climatisée','Guidage GPS','Suspension cabine']),
   v('Caterpillar','950 GC Chargeuse','special','Occasion',165000,2021,'Diesel Cat C7.1 173ch','Automatique','États-Unis','France',['Cabine climatisée','Caméra périphérique','Godet haute capacité']),
-  v('Komatsu','PC210 Pelle','special','Occasion',142000,2021,'Diesel 4 cyl. 165ch','Hydrostatique','Japon','Japon',['Cabine climatisée','Système anti-vol GPS'])
+  v('Komatsu','PC210 Pelle','special','Occasion',142000,2021,'Diesel 4 cyl. 165ch','Hydrostatique','Japon','Japon',['Cabine climatisée','Système anti-vol GPS']),
+
+  // ---- GROS PORTEUR SUPPLÉMENTAIRE (photos réelles fournies) ----
+  v('IVECO','Trakker AD380T45','gros-porteur','Occasion',79500,2021,'Diesel Cursor 13L 450ch','Automatisée ZF','Italie','Italie',['Cabine climatisée','4x4/6x4 tout-terrain','Benne basculante hydraulique','Grue auxiliaire (version chantier)'])
 ];
+
+/* --------------------------------------------------------------------
+   2-bis. PHOTOS RÉELLES — rattachement aux fiches (en remplacement des visuels provisoires)
+   Complète au fur et à mesure des photos transmises par ZAKARI GRUPPE.
+   -------------------------------------------------------------------- */
+const PHOTOS_REELLES = {
+  'IVECO Trakker AD380T45': [
+    'images/vehicules/iveco-trakker-1.jpg','images/vehicules/iveco-trakker-3.jpg','images/vehicules/iveco-trakker-4.jpg',
+    'images/vehicules/iveco-trakker-5.jpg','images/vehicules/iveco-trakker-7.jpg','images/vehicules/iveco-trakker-2.jpg',
+    'images/vehicules/iveco-trakker-6.jpg'
+  ],
+  'IVECO S-Way 570': [
+    'images/vehicules/iveco-sway-1.jpg','images/vehicules/iveco-sway-2.jpg','images/vehicules/iveco-sway-3.jpg'
+  ],
+  'DAF Trucks XF 480': [
+    'images/vehicules/daf-xf-1.jpg','images/vehicules/daf-xf-4.jpg','images/vehicules/daf-xf-2.jpg',
+    'images/vehicules/daf-xf-5.jpg','images/vehicules/daf-xf-3.jpg','images/vehicules/daf-xf-6.jpg'
+  ],
+  'Scania R 660 V8': [
+    'images/vehicules/scania-r660-1.jpg','images/vehicules/scania-r660-2.jpg'
+  ],
+  'MAN Trucks TGX 18.510': [
+    'images/vehicules/man-tgx-1.jpg'
+  ],
+  'Renault Trucks T High 520': [
+    'images/vehicules/renault-thigh-1.jpg'
+  ]
+};
+VEHICULES_INITIAUX.forEach(vehicule=>{
+  const cle = `${vehicule.marque} ${vehicule.modele}`;
+  if(PHOTOS_REELLES[cle]) vehicule.images = PHOTOS_REELLES[cle];
+});
 
 /* --------------------------------------------------------------------
    3. DONNÉES INITIALES — SERVICES DE DETAILING
@@ -329,8 +364,11 @@ function peupleSelecteurs(){
   const origines = [...new Set(vehicules.map(v=>v.paysOrigine))].sort();
   const selMarque = document.getElementById('filtreMarque');
   const selOrigine = document.getElementById('filtreOrigine');
-  selMarque.innerHTML = '<option value="tous">Toutes les marques</option>' + marques.map(m=>`<option value="${m}">${m}</option>`).join('');
-  selOrigine.innerHTML = '<option value="tous">Toutes origines</option>' + origines.map(o=>`<option value="${o}">${o}</option>`).join('');
+  const valeurMarque = selMarque.value, valeurOrigine = selOrigine.value;
+  selMarque.innerHTML = `<option value="tous">${t('filtre_toutes_marques')}</option>` + marques.map(m=>`<option value="${m}">${m}</option>`).join('');
+  selOrigine.innerHTML = `<option value="tous">${t('filtre_toutes_origines')}</option>` + origines.map(o=>`<option value="${o}">${o}</option>`).join('');
+  selMarque.value = valeurMarque || 'tous';
+  selOrigine.value = valeurOrigine || 'tous';
 }
 
 function vehiculesFiltres(){
@@ -357,7 +395,7 @@ function carteVehiculeHTML(v){
   <article class="carte-vehicule" data-id="${v.id}">
     <div class="image-vehicule">
       <img src="${imagesDe(v)[0]}" alt="${v.marque} ${v.modele}" loading="lazy">
-      <span class="badge-etat ${v.etat==='Neuf'?'neuf':'occasion'}">${v.etat}</span>
+      <span class="badge-etat ${v.etat==='Neuf'?'neuf':'occasion'}">${v.etat==='Neuf'?t('etat_neuf'):t('etat_occasion')}</span>
       <span class="badge-categorie">${NOMS_CATEGORIES[v.categorie]}</span>
     </div>
     <div class="corps-carte">
@@ -371,13 +409,13 @@ function carteVehiculeHTML(v){
         <span>${v.annee}</span>
       </div>
       <div class="pays-carte">
-        <span>Origine marque : <b>${v.paysOrigine}</b></span>
-        <span>Fabrication : <b>${v.paysFabrication}</b></span>
+        <span>${t('label_origine')} : <b>${v.paysOrigine}</b></span>
+        <span>${t('label_fabrication')} : <b>${v.paysFabrication}</b></span>
       </div>
       <div class="options-carte">${v.options.slice(0,3).map(o=>`<span class="tag-option">${o}</span>`).join('')}${v.options.length>3?`<span class="tag-option">+${v.options.length-3}</span>`:''}</div>
       <div class="pied-carte">
-        <button class="btn btn-fantome" data-voir="${v.id}">Voir la fiche</button>
-        <button class="btn btn-or" data-commander data-nom-produit="${nomComplet.replace(/"/g,'&quot;')}" data-prix-produit="${v.prix}">Commander</button>
+        <button class="btn btn-fantome" data-voir="${v.id}">${t('btn_voir_fiche')}</button>
+        <button class="btn btn-or" data-commander data-nom-produit="${nomComplet.replace(/"/g,'&quot;')}" data-prix-produit="${v.prix}">${t('btn_commander')}</button>
       </div>
     </div>
   </article>`;
@@ -388,7 +426,7 @@ function rendreVehicules(){
   const grille = document.getElementById('grilleVehicules');
   const compteur = document.getElementById('compteurVehicules');
   const visibles = liste.slice(0, vehiculesAffiches);
-  compteur.textContent = `${liste.length} véhicule${liste.length>1?'s':''} — ${visibles.length} affiché${visibles.length>1?'s':''}`;
+  compteur.textContent = t('compteur_texte').replace('{total}', liste.length).replace('{visibles}', visibles.length);
   document.getElementById('statVehicules').textContent = vehicules.length;
   document.getElementById('btnPlusVehicules').style.display = vehiculesAffiches < liste.length ? 'inline-flex' : 'none';
   if(!liste.length){
@@ -409,13 +447,13 @@ function carteServiceHTML(s){
     <span class="icone-service"><svg viewBox="0 0 24 24" fill="none"><use href="#${s.icone}"/></svg></span>
     <h3>${s.titre}</h3>
     <p>${s.description}</p>
-    <span class="libelle-bloc">Bienfaits ciblés</span>
+    <span class="libelle-bloc">${t('service_bienfaits')}</span>
     <div class="bienfaits-service">${(s.bienfaits||[]).map(b=>`<span>${b}</span>`).join('')}</div>
-    <span class="libelle-bloc">Matériel professionnel utilisé</span>
+    <span class="libelle-bloc">${t('service_materiel')}</span>
     <div class="liste-materiel">${s.materiel.map(m=>`<span>${m}</span>`).join('')}</div>
     <div class="tarif-service">
       <span class="montant">${formaterPrix(s.tarifMin)}<sup>${s.unite}</sup></span>
-      <button class="btn btn-or btn-petit" data-commander data-nom-produit="${s.titre.replace(/"/g,'&quot;')}" data-prix-produit="${s.tarifMin}">Réserver</button>
+      <button class="btn btn-or btn-petit" data-commander data-nom-produit="${s.titre.replace(/"/g,'&quot;')}" data-prix-produit="${s.tarifMin}">${t('btn_reserver')}</button>
     </div>
   </article>`;
 }
@@ -445,15 +483,15 @@ function ouvrirFiche(id){
     <h3 style="font-size:1.9rem;margin-bottom:.6rem">${v.modele}</h3>
     <p style="color:var(--or-clair);font-family:var(--f-display);font-size:1.6rem;margin-bottom:1.2rem">${formaterPrix(v.prix)}</p>
     <div class="meta-carte" style="margin-bottom:1.2rem">
-      <span>État : ${v.etat}</span><span>Année : ${v.annee}</span><span>${v.moteur}</span><span>${v.transmission}</span>
+      <span>${t('label_etat')} : ${v.etat==='Neuf'?t('etat_neuf'):t('etat_occasion')}</span><span>${t('label_annee')} : ${v.annee}</span><span>${v.moteur}</span><span>${v.transmission}</span>
     </div>
     <div class="pays-carte" style="margin-bottom:1.2rem">
-      <span>Origine de la marque : <b>${v.paysOrigine}</b></span>
-      <span>Fabrication du modèle : <b>${v.paysFabrication}</b></span>
+      <span>${t('label_origine')} : <b>${v.paysOrigine}</b></span>
+      <span>${t('label_fabrication')} : <b>${v.paysFabrication}</b></span>
     </div>
-    <p class="eyebrow">Options &amp; équipements</p>
+    <p class="eyebrow">${t('fiche_options_titre')}</p>
     <div class="options-carte" style="margin-bottom:1.6rem">${v.options.map(o=>`<span class="tag-option">${o}</span>`).join('')}</div>
-    <button class="btn btn-or" style="width:100%" data-commander data-nom-produit="${nomComplet.replace(/"/g,'&quot;')}" data-prix-produit="${v.prix}">Commander sur WhatsApp</button>
+    <button class="btn btn-or" style="width:100%" data-commander data-nom-produit="${nomComplet.replace(/"/g,'&quot;')}" data-prix-produit="${v.prix}">${t('fiche_commander_whatsapp')}</button>
   `;
   document.querySelectorAll('[data-vignette]').forEach(vign=>{
     vign.addEventListener('click', ()=>{ document.getElementById('imagePrincipaleFiche').src = images[Number(vign.dataset.vignette)]; });
@@ -875,7 +913,20 @@ const TRADUCTIONS = {
     materiel_eyebrow:'Matériel professionnel', materiel_titre:"L'arsenal ZAKARI Detailing",
     contact_eyebrow:'Nous joindre', contact_titre:'Un projet, un véhicule, une prestation ?', contact_sous:'Nos équipes en Allemagne et au Bénin répondent directement sur WhatsApp.',
     pied_desc:'Négoce de véhicules et atelier de detailing premium — une confidentialité totale, une exigence intacte.', pied_navigation:'Navigation', pied_domaines:'Domaines', pied_detailing:'Detailing Premium', pied_boutique:'Boutique partenaire',
-    commande_eyebrow:'Quel bureau souhaitez-vous contacter ?', commande_titre:'Choisissez le bureau le plus proche de vous', pays_allemagne:'Bureau Allemagne', pays_benin:'Bureau Bénin' },
+    commande_eyebrow:'Quel bureau souhaitez-vous contacter ?', commande_titre:'Choisissez le bureau le plus proche de vous', pays_allemagne:'Bureau Allemagne', pays_benin:'Bureau Bénin',
+    site_soustitre:'VÉHICULES · DETAILING', etat_neuf:'Neuf', etat_occasion:'Occasion',
+    label_origine:'Origine marque', label_fabrication:'Fabrication', label_etat:'État', label_annee:'Année',
+    btn_voir_fiche:'Voir la fiche', btn_commander:'Commander', btn_reserver:'Réserver', btn_charger_plus:'Charger plus de véhicules',
+    compteur_texte:'{total} véhicule(s) — {visibles} affiché(s)',
+    filtre_toutes_marques:'Toutes les marques', filtre_neuf_occasion:'Neuf & Occasion', filtre_toutes_origines:'Toutes origines',
+    filtre_plus_recents:'Plus récents', filtre_prix_asc:'Prix croissant', filtre_prix_desc:'Prix décroissant',
+    fiche_options_titre:'Options & équipements', fiche_commander_whatsapp:'Commander sur WhatsApp',
+    service_bienfaits:'Bienfaits ciblés', service_materiel:'Matériel professionnel utilisé',
+    pied_powered_by:'Powered by', pied_boutique_desc:'Boutique officielle de scripts, codes sources et outils par EMPIRE CODE.', pied_visiter:'Visiter', pied_droits:'Tous droits réservés',
+    confidentialite_texte:"Une idée d'outil sur mesure, fonctionnant hors connexion, hors serveur, hors base de données, pour votre activité et votre confidentialité ? Écrivez-nous. Par : WhatsApp : +2290196809106, email : empiredonko@gmail.com.",
+    canal_whatsapp_allemagne:'WhatsApp — Allemagne', canal_whatsapp_benin:'WhatsApp — Bénin', canal_email_benin:'Email — Bénin',
+    form_nom:'Nom complet', form_demande:'Votre demande', form_option1:"Achat d'un véhicule", form_option2:'Vente / reprise', form_option3:'Prestation de detailing', form_option4:'Autre demande',
+    form_message:'Message', form_message_placeholder:'Décrivez votre besoin…', form_envoyer:'Envoyer sur WhatsApp' },
   en:{ nav_accueil:'Home', nav_vehicules:'Vehicles', nav_services:'Services', nav_contact:'Contact', nav_installer:'Install app',
     hero_eyebrow:'From Benin, towards automotive excellence', hero_titre:"The <em>ZAKARI</em> standard,<br>on four wheels.",
     hero_baseline:'New and used vehicle sales — heavy trucks, passenger cars and special equipment — paired with a premium detailing workshop.',
@@ -888,7 +939,20 @@ const TRADUCTIONS = {
     materiel_eyebrow:'Professional equipment', materiel_titre:'The ZAKARI Detailing arsenal',
     contact_eyebrow:'Get in touch', contact_titre:'A project, a vehicle, a service?', contact_sous:'Our teams in Germany and Benin reply directly on WhatsApp.',
     pied_desc:'Vehicle trading and premium detailing workshop — total confidentiality, unwavering standards.', pied_navigation:'Navigation', pied_domaines:'Domains', pied_detailing:'Premium Detailing', pied_boutique:'Partner shop',
-    commande_eyebrow:'Which office would you like to contact?', commande_titre:'Choose the office nearest to you', pays_allemagne:'Germany Office', pays_benin:'Benin Office' },
+    commande_eyebrow:'Which office would you like to contact?', commande_titre:'Choose the office nearest to you', pays_allemagne:'Germany Office', pays_benin:'Benin Office',
+    site_soustitre:'VEHICLES · DETAILING', etat_neuf:'New', etat_occasion:'Used',
+    label_origine:'Brand origin', label_fabrication:'Manufactured in', label_etat:'Condition', label_annee:'Year',
+    btn_voir_fiche:'View details', btn_commander:'Order', btn_reserver:'Book', btn_charger_plus:'Load more vehicles',
+    compteur_texte:'{total} vehicle(s) — {visibles} shown',
+    filtre_toutes_marques:'All brands', filtre_neuf_occasion:'New & Used', filtre_toutes_origines:'All origins',
+    filtre_plus_recents:'Newest first', filtre_prix_asc:'Price: low to high', filtre_prix_desc:'Price: high to low',
+    fiche_options_titre:'Options & equipment', fiche_commander_whatsapp:'Order on WhatsApp',
+    service_bienfaits:'Targeted benefits', service_materiel:'Professional equipment used',
+    pied_powered_by:'Powered by', pied_boutique_desc:'Official store for scripts, source code and tools by EMPIRE CODE.', pied_visiter:'Visit', pied_droits:'All rights reserved',
+    confidentialite_texte:'Need a custom tool that works offline, without a server, without a database, for your business and your privacy? Write to us. Via: WhatsApp: +2290196809106, email: empiredonko@gmail.com.',
+    canal_whatsapp_allemagne:'WhatsApp — Germany', canal_whatsapp_benin:'WhatsApp — Benin', canal_email_benin:'Email — Benin',
+    form_nom:'Full name', form_demande:'Your request', form_option1:'Buying a vehicle', form_option2:'Selling / trade-in', form_option3:'Detailing service', form_option4:'Other request',
+    form_message:'Message', form_message_placeholder:'Describe what you need…', form_envoyer:'Send on WhatsApp' },
   de:{ nav_accueil:'Start', nav_vehicules:'Fahrzeuge', nav_services:'Dienstleistungen', nav_contact:'Kontakt', nav_installer:'App installieren',
     hero_eyebrow:'Von Benin aus, für automobile Exzellenz', hero_titre:'Der <em>ZAKARI</em>-Anspruch,<br>auf vier Rädern.',
     hero_baseline:'Verkauf von Neu- und Gebrauchtfahrzeugen — Lkw, Pkw und Sonderfahrzeuge — kombiniert mit einer Premium-Detailing-Werkstatt.',
@@ -901,7 +965,20 @@ const TRADUCTIONS = {
     materiel_eyebrow:'Profi-Ausrüstung', materiel_titre:'Das ZAKARI-Detailing-Arsenal',
     contact_eyebrow:'Kontakt aufnehmen', contact_titre:'Ein Projekt, ein Fahrzeug, eine Leistung?', contact_sous:'Unsere Teams in Deutschland und Benin antworten direkt auf WhatsApp.',
     pied_desc:'Fahrzeughandel und Premium-Detailing-Werkstatt — absolute Vertraulichkeit, unveränderter Anspruch.', pied_navigation:'Navigation', pied_domaines:'Bereiche', pied_detailing:'Premium Detailing', pied_boutique:'Partner-Shop',
-    commande_eyebrow:'Welches Büro möchten Sie kontaktieren?', commande_titre:'Wählen Sie das Büro in Ihrer Nähe', pays_allemagne:'Büro Deutschland', pays_benin:'Büro Benin' },
+    commande_eyebrow:'Welches Büro möchten Sie kontaktieren?', commande_titre:'Wählen Sie das Büro in Ihrer Nähe', pays_allemagne:'Büro Deutschland', pays_benin:'Büro Benin',
+    site_soustitre:'FAHRZEUGE · DETAILING', etat_neuf:'Neu', etat_occasion:'Gebraucht',
+    label_origine:'Markenherkunft', label_fabrication:'Herstellungsland', label_etat:'Zustand', label_annee:'Baujahr',
+    btn_voir_fiche:'Details ansehen', btn_commander:'Bestellen', btn_reserver:'Buchen', btn_charger_plus:'Weitere Fahrzeuge laden',
+    compteur_texte:'{total} Fahrzeug(e) — {visibles} angezeigt',
+    filtre_toutes_marques:'Alle Marken', filtre_neuf_occasion:'Neu & Gebraucht', filtre_toutes_origines:'Alle Herkünfte',
+    filtre_plus_recents:'Neueste zuerst', filtre_prix_asc:'Preis aufsteigend', filtre_prix_desc:'Preis absteigend',
+    fiche_options_titre:'Optionen & Ausstattung', fiche_commander_whatsapp:'Über WhatsApp bestellen',
+    service_bienfaits:'Gezielte Vorteile', service_materiel:'Verwendete Profi-Ausrüstung',
+    pied_powered_by:'Powered by', pied_boutique_desc:'Offizieller Shop für Skripte, Quellcode und Tools von EMPIRE CODE.', pied_visiter:'Besuchen', pied_droits:'Alle Rechte vorbehalten',
+    confidentialite_texte:'Eine Idee für ein maßgeschneidertes Tool, das offline funktioniert, ohne Server, ohne Datenbank, für Ihr Unternehmen und Ihre Vertraulichkeit? Schreiben Sie uns. Über: WhatsApp: +2290196809106, E-Mail: empiredonko@gmail.com.',
+    canal_whatsapp_allemagne:'WhatsApp — Deutschland', canal_whatsapp_benin:'WhatsApp — Benin', canal_email_benin:'E-Mail — Benin',
+    form_nom:'Vollständiger Name', form_demande:'Ihr Anliegen', form_option1:'Fahrzeugkauf', form_option2:'Verkauf / Inzahlungnahme', form_option3:'Detailing-Leistung', form_option4:'Andere Anfrage',
+    form_message:'Nachricht', form_message_placeholder:'Beschreiben Sie Ihr Anliegen…', form_envoyer:'Über WhatsApp senden' },
   es:{ nav_accueil:'Inicio', nav_vehicules:'Vehículos', nav_services:'Servicios', nav_contact:'Contacto', nav_installer:'Instalar app',
     hero_eyebrow:'Desde Benín, hacia la excelencia automotriz', hero_titre:'La exigencia <em>ZAKARI</em>,<br>sobre cuatro ruedas.',
     hero_baseline:'Venta de vehículos nuevos y usados — camiones, turismos y vehículos especiales — junto a un taller de detailing premium.',
@@ -914,7 +991,20 @@ const TRADUCTIONS = {
     materiel_eyebrow:'Equipamiento profesional', materiel_titre:'El arsenal ZAKARI Detailing',
     contact_eyebrow:'Contáctenos', contact_titre:'¿Un proyecto, un vehículo, un servicio?', contact_sous:'Nuestros equipos en Alemania y Benín responden directamente por WhatsApp.',
     pied_desc:'Comercio de vehículos y taller de detailing premium — confidencialidad total, exigencia intacta.', pied_navigation:'Navegación', pied_domaines:'Ámbitos', pied_detailing:'Detailing Premium', pied_boutique:'Tienda asociada',
-    commande_eyebrow:'¿Qué oficina desea contactar?', commande_titre:'Elija la oficina más cercana a usted', pays_allemagne:'Oficina Alemania', pays_benin:'Oficina Benín' },
+    commande_eyebrow:'¿Qué oficina desea contactar?', commande_titre:'Elija la oficina más cercana a usted', pays_allemagne:'Oficina Alemania', pays_benin:'Oficina Benín',
+    site_soustitre:'VEHÍCULOS · DETAILING', etat_neuf:'Nuevo', etat_occasion:'Usado',
+    label_origine:'Origen de la marca', label_fabrication:'Fabricación', label_etat:'Estado', label_annee:'Año',
+    btn_voir_fiche:'Ver ficha', btn_commander:'Pedir', btn_reserver:'Reservar', btn_charger_plus:'Cargar más vehículos',
+    compteur_texte:'{total} vehículo(s) — {visibles} mostrado(s)',
+    filtre_toutes_marques:'Todas las marcas', filtre_neuf_occasion:'Nuevo y Usado', filtre_toutes_origines:'Todos los orígenes',
+    filtre_plus_recents:'Más recientes', filtre_prix_asc:'Precio ascendente', filtre_prix_desc:'Precio descendente',
+    fiche_options_titre:'Opciones y equipamiento', fiche_commander_whatsapp:'Pedir por WhatsApp',
+    service_bienfaits:'Beneficios específicos', service_materiel:'Equipo profesional utilizado',
+    pied_powered_by:'Desarrollado por', pied_boutique_desc:'Tienda oficial de scripts, código fuente y herramientas de EMPIRE CODE.', pied_visiter:'Visitar', pied_droits:'Todos los derechos reservados',
+    confidentialite_texte:'¿Una idea de herramienta a medida, que funcione sin conexión, sin servidor, sin base de datos, para su actividad y su confidencialidad? Escríbanos. Por: WhatsApp: +2290196809106, correo: empiredonko@gmail.com.',
+    canal_whatsapp_allemagne:'WhatsApp — Alemania', canal_whatsapp_benin:'WhatsApp — Benín', canal_email_benin:'Correo — Benín',
+    form_nom:'Nombre completo', form_demande:'Su solicitud', form_option1:'Compra de un vehículo', form_option2:'Venta / recompra', form_option3:'Servicio de detailing', form_option4:'Otra solicitud',
+    form_message:'Mensaje', form_message_placeholder:'Describa su necesidad…', form_envoyer:'Enviar por WhatsApp' },
   pt:{ nav_accueil:'Início', nav_vehicules:'Veículos', nav_services:'Serviços', nav_contact:'Contato', nav_installer:'Instalar app',
     hero_eyebrow:'Do Benin, rumo à excelência automóvel', hero_titre:'A exigência <em>ZAKARI</em>,<br>sobre quatro rodas.',
     hero_baseline:'Venda de veículos novos e usados — camiões, ligeiros e veículos especiais — aliada a uma oficina de detailing premium.',
@@ -927,7 +1017,20 @@ const TRADUCTIONS = {
     materiel_eyebrow:'Equipamento profissional', materiel_titre:'O arsenal ZAKARI Detailing',
     contact_eyebrow:'Fale connosco', contact_titre:'Um projeto, um veículo, um serviço?', contact_sous:'As nossas equipas na Alemanha e no Benin respondem diretamente no WhatsApp.',
     pied_desc:'Comércio de veículos e oficina de detailing premium — confidencialidade total, exigência intacta.', pied_navigation:'Navegação', pied_domaines:'Domínios', pied_detailing:'Detailing Premium', pied_boutique:'Loja parceira',
-    commande_eyebrow:'Qual escritório deseja contactar?', commande_titre:'Escolha o escritório mais próximo de si', pays_allemagne:'Escritório Alemanha', pays_benin:'Escritório Benin' },
+    commande_eyebrow:'Qual escritório deseja contactar?', commande_titre:'Escolha o escritório mais próximo de si', pays_allemagne:'Escritório Alemanha', pays_benin:'Escritório Benin',
+    site_soustitre:'VEÍCULOS · DETAILING', etat_neuf:'Novo', etat_occasion:'Usado',
+    label_origine:'Origem da marca', label_fabrication:'Fabricação', label_etat:'Estado', label_annee:'Ano',
+    btn_voir_fiche:'Ver ficha', btn_commander:'Encomendar', btn_reserver:'Reservar', btn_charger_plus:'Carregar mais veículos',
+    compteur_texte:'{total} veículo(s) — {visibles} exibido(s)',
+    filtre_toutes_marques:'Todas as marcas', filtre_neuf_occasion:'Novo e Usado', filtre_toutes_origines:'Todas as origens',
+    filtre_plus_recents:'Mais recentes', filtre_prix_asc:'Preço crescente', filtre_prix_desc:'Preço decrescente',
+    fiche_options_titre:'Opções e equipamento', fiche_commander_whatsapp:'Encomendar via WhatsApp',
+    service_bienfaits:'Benefícios visados', service_materiel:'Equipamento profissional utilizado',
+    pied_powered_by:'Desenvolvido por', pied_boutique_desc:'Loja oficial de scripts, código-fonte e ferramentas da EMPIRE CODE.', pied_visiter:'Visitar', pied_droits:'Todos os direitos reservados',
+    confidentialite_texte:'Uma ideia de ferramenta sob medida, funcionando offline, sem servidor, sem base de dados, para a sua atividade e a sua confidencialidade? Escreva-nos. Via: WhatsApp: +2290196809106, e-mail: empiredonko@gmail.com.',
+    canal_whatsapp_allemagne:'WhatsApp — Alemanha', canal_whatsapp_benin:'WhatsApp — Benin', canal_email_benin:'E-mail — Benin',
+    form_nom:'Nome completo', form_demande:'O seu pedido', form_option1:'Compra de um veículo', form_option2:'Venda / retoma', form_option3:'Serviço de detailing', form_option4:'Outro pedido',
+    form_message:'Mensagem', form_message_placeholder:'Descreva a sua necessidade…', form_envoyer:'Enviar via WhatsApp' },
   ru:{ nav_accueil:'Главная', nav_vehicules:'Автомобили', nav_services:'Услуги', nav_contact:'Контакты', nav_installer:'Установить приложение',
     hero_eyebrow:'Из Бенина — к автомобильному совершенству', hero_titre:'Стандарт <em>ZAKARI</em><br>на четырёх колёсах.',
     hero_baseline:'Продажа новых и подержанных автомобилей — грузовики, легковые и спецтехника — вместе с премиальной студией детейлинга.',
@@ -940,7 +1043,20 @@ const TRADUCTIONS = {
     materiel_eyebrow:'Профессиональное оборудование', materiel_titre:'Арсенал ZAKARI Detailing',
     contact_eyebrow:'Связаться с нами', contact_titre:'Проект, автомобиль или услуга?', contact_sous:'Наши команды в Германии и Бенине отвечают напрямую в WhatsApp.',
     pied_desc:'Торговля автомобилями и премиальная студия детейлинга — полная конфиденциальность, неизменные стандарты.', pied_navigation:'Навигация', pied_domaines:'Разделы', pied_detailing:'Премиальный детейлинг', pied_boutique:'Партнёрский магазин',
-    commande_eyebrow:'С каким офисом вы хотите связаться?', commande_titre:'Выберите ближайший к вам офис', pays_allemagne:'Офис в Германии', pays_benin:'Офис в Бенине' },
+    commande_eyebrow:'С каким офисом вы хотите связаться?', commande_titre:'Выберите ближайший к вам офис', pays_allemagne:'Офис в Германии', pays_benin:'Офис в Бенине',
+    site_soustitre:'АВТОМОБИЛИ · ДЕТЕЙЛИНГ', etat_neuf:'Новый', etat_occasion:'С пробегом',
+    label_origine:'Страна бренда', label_fabrication:'Производство', label_etat:'Состояние', label_annee:'Год',
+    btn_voir_fiche:'Подробнее', btn_commander:'Заказать', btn_reserver:'Забронировать', btn_charger_plus:'Показать больше автомобилей',
+    compteur_texte:'{total} автомоб. — показано {visibles}',
+    filtre_toutes_marques:'Все марки', filtre_neuf_occasion:'Новые и с пробегом', filtre_toutes_origines:'Все страны',
+    filtre_plus_recents:'Сначала новые', filtre_prix_asc:'Цена по возрастанию', filtre_prix_desc:'Цена по убыванию',
+    fiche_options_titre:'Опции и оснащение', fiche_commander_whatsapp:'Заказать через WhatsApp',
+    service_bienfaits:'Целевые преимущества', service_materiel:'Используемое профессиональное оборудование',
+    pied_powered_by:'Разработано', pied_boutique_desc:'Официальный магазин скриптов, исходного кода и инструментов от EMPIRE CODE.', pied_visiter:'Перейти', pied_droits:'Все права защищены',
+    confidentialite_texte:'Нужен индивидуальный инструмент, работающий офлайн, без сервера, без базы данных, для вашего бизнеса и конфиденциальности? Напишите нам. Через WhatsApp: +2290196809106, email: empiredonko@gmail.com.',
+    canal_whatsapp_allemagne:'WhatsApp — Германия', canal_whatsapp_benin:'WhatsApp — Бенин', canal_email_benin:'Email — Бенин',
+    form_nom:'Полное имя', form_demande:'Ваш запрос', form_option1:'Покупка автомобиля', form_option2:'Продажа / трейд-ин', form_option3:'Услуга детейлинга', form_option4:'Другой запрос',
+    form_message:'Сообщение', form_message_placeholder:'Опишите вашу потребность…', form_envoyer:'Отправить через WhatsApp' },
   zh:{ nav_accueil:'首页', nav_vehicules:'车辆', nav_services:'服务', nav_contact:'联系我们', nav_installer:'安装应用',
     hero_eyebrow:'源自贝宁，追求汽车卓越', hero_titre:'<em>ZAKARI</em> 品质<br>驰骋四轮。',
     hero_baseline:'新车与二手车销售——重型卡车、乘用车与特种车辆——搭配高端汽车美容工坊。',
@@ -953,7 +1069,20 @@ const TRADUCTIONS = {
     materiel_eyebrow:'专业设备', materiel_titre:'ZAKARI 美容装备库',
     contact_eyebrow:'联系我们', contact_titre:'项目、车辆或服务咨询？', contact_sous:'我们在德国和贝宁的团队会直接通过 WhatsApp 回复您。',
     pied_desc:'车辆贸易与高端汽车美容工坊——绝对保密，品质如一。', pied_navigation:'导航', pied_domaines:'业务领域', pied_detailing:'高端美容', pied_boutique:'合作商店',
-    commande_eyebrow:'您想联系哪个办事处？', commande_titre:'请选择离您最近的办事处', pays_allemagne:'德国办事处', pays_benin:'贝宁办事处' },
+    commande_eyebrow:'您想联系哪个办事处？', commande_titre:'请选择离您最近的办事处', pays_allemagne:'德国办事处', pays_benin:'贝宁办事处',
+    site_soustitre:'车辆 · 美容', etat_neuf:'全新', etat_occasion:'二手',
+    label_origine:'品牌产地', label_fabrication:'制造产地', label_etat:'状态', label_annee:'年份',
+    btn_voir_fiche:'查看详情', btn_commander:'订购', btn_reserver:'预约', btn_charger_plus:'加载更多车辆',
+    compteur_texte:'共 {total} 辆 — 显示 {visibles} 辆',
+    filtre_toutes_marques:'所有品牌', filtre_neuf_occasion:'全新与二手', filtre_toutes_origines:'所有产地',
+    filtre_plus_recents:'最新优先', filtre_prix_asc:'价格从低到高', filtre_prix_desc:'价格从高到低',
+    fiche_options_titre:'选装与配置', fiche_commander_whatsapp:'通过 WhatsApp 订购',
+    service_bienfaits:'针对性效益', service_materiel:'使用的专业设备',
+    pied_powered_by:'技术支持', pied_boutique_desc:'EMPIRE CODE 官方脚本、源代码与工具商店。', pied_visiter:'访问', pied_droits:'版权所有',
+    confidentialite_texte:'需要为您的业务量身定制、离线运行、无需服务器、无需数据库的隐私保护工具？请联系我们。方式：WhatsApp：+2290196809106，邮箱：empiredonko@gmail.com。',
+    canal_whatsapp_allemagne:'WhatsApp — 德国', canal_whatsapp_benin:'WhatsApp — 贝宁', canal_email_benin:'邮箱 — 贝宁',
+    form_nom:'姓名', form_demande:'您的需求', form_option1:'购买车辆', form_option2:'出售 / 以旧换新', form_option3:'汽车美容服务', form_option4:'其他需求',
+    form_message:'留言', form_message_placeholder:'请描述您的需求…', form_envoyer:'通过 WhatsApp 发送' },
   ar:{ nav_accueil:'الرئيسية', nav_vehicules:'المركبات', nav_services:'الخدمات', nav_contact:'اتصل بنا', nav_installer:'تثبيت التطبيق',
     hero_eyebrow:'من بنين نحو التميز في عالم السيارات', hero_titre:'معيار <em>ZAKARI</em><br>على أربع عجلات.',
     hero_baseline:'بيع المركبات الجديدة والمستعملة — الشاحنات الثقيلة والسيارات الخاصة والمعدات الخاصة — إلى جانب ورشة تلميع فاخرة.',
@@ -966,8 +1095,26 @@ const TRADUCTIONS = {
     materiel_eyebrow:'معدات احترافية', materiel_titre:'ترسانة ZAKARI للتلميع',
     contact_eyebrow:'تواصل معنا', contact_titre:'مشروع أو مركبة أو خدمة؟', contact_sous:'فرقنا في ألمانيا وبنين تجيب مباشرة عبر واتساب.',
     pied_desc:'تجارة المركبات وورشة تلميع فاخرة — سرية تامة ومعايير لا تتغير.', pied_navigation:'التنقل', pied_domaines:'المجالات', pied_detailing:'تلميع فاخر', pied_boutique:'متجر شريك',
-    commande_eyebrow:'ما هو المكتب الذي تريد التواصل معه؟', commande_titre:'اختر المكتب الأقرب إليك', pays_allemagne:'مكتب ألمانيا', pays_benin:'مكتب بنين' }
+    commande_eyebrow:'ما هو المكتب الذي تريد التواصل معه؟', commande_titre:'اختر المكتب الأقرب إليك', pays_allemagne:'مكتب ألمانيا', pays_benin:'مكتب بنين',
+    site_soustitre:'المركبات · التلميع', etat_neuf:'جديد', etat_occasion:'مستعمل',
+    label_origine:'بلد العلامة', label_fabrication:'بلد التصنيع', label_etat:'الحالة', label_annee:'السنة',
+    btn_voir_fiche:'عرض التفاصيل', btn_commander:'اطلب الآن', btn_reserver:'احجز الآن', btn_charger_plus:'تحميل المزيد من المركبات',
+    compteur_texte:'{total} مركبة — يتم عرض {visibles}',
+    filtre_toutes_marques:'كل الماركات', filtre_neuf_occasion:'جديد ومستعمل', filtre_toutes_origines:'كل بلدان المنشأ',
+    filtre_plus_recents:'الأحدث أولاً', filtre_prix_asc:'السعر تصاعديًا', filtre_prix_desc:'السعر تنازليًا',
+    fiche_options_titre:'الخيارات والتجهيزات', fiche_commander_whatsapp:'اطلب عبر واتساب',
+    service_bienfaits:'الفوائد المستهدفة', service_materiel:'المعدات الاحترافية المستخدمة',
+    pied_powered_by:'مدعوم من', pied_boutique_desc:'المتجر الرسمي للسكربتات والأكواد المصدرية والأدوات من EMPIRE CODE.', pied_visiter:'زيارة', pied_droits:'جميع الحقوق محفوظة',
+    confidentialite_texte:'فكرة أداة مخصصة تعمل دون اتصال، دون خادم، دون قاعدة بيانات، لنشاطك وسريتك؟ راسلنا. عبر واتساب: +2290196809106، البريد الإلكتروني: empiredonko@gmail.com.',
+    canal_whatsapp_allemagne:'واتساب — ألمانيا', canal_whatsapp_benin:'واتساب — بنين', canal_email_benin:'البريد الإلكتروني — بنين',
+    form_nom:'الاسم الكامل', form_demande:'طلبك', form_option1:'شراء مركبة', form_option2:'بيع / استبدال', form_option3:'خدمة تلميع', form_option4:'طلب آخر',
+    form_message:'الرسالة', form_message_placeholder:'صف احتياجك…', form_envoyer:'إرسال عبر واتساب' }
 };
+
+function t(cle){
+  const dict = TRADUCTIONS[langueActuelle] || TRADUCTIONS.fr;
+  return dict[cle] !== undefined ? dict[cle] : (TRADUCTIONS.fr[cle] || cle);
+}
 
 let langueActuelle = chargerDepuisStockage(CONFIG.CLES_STOCKAGE.langue, 'fr');
 if(typeof langueActuelle !== 'string') langueActuelle = 'fr';
@@ -1001,6 +1148,9 @@ function appliquerLangue(code){
     if(dict[cle]) el.setAttribute('placeholder', dict[cle]);
   });
   peuplerSelecteurLangue();
+  // Recalcule tout le contenu généré dynamiquement (cartes, filtres, compteurs, formulaires)
+  if(typeof rafraichirTout === 'function') rafraichirTout();
+  if(typeof peupleSelecteurs === 'function') peupleSelecteurs();
 }
 document.getElementById('panneauLangue').addEventListener('click', e=>{
   const btn = e.target.closest('[data-langue]'); if(!btn) return;
